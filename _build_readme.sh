@@ -14,7 +14,7 @@ else
 fi
 
 OUTPUT=./README.md
-echo "# LeetCode 2nd turn" > $OUTPUT
+echo "# LeetCode 3rd turn" > $OUTPUT
 now=$(date)
 echo "### last update: ${now}" >> $OUTPUT
 
