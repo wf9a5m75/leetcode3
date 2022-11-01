@@ -3,14 +3,14 @@
 NEW_FILES=$(find ./*/* -name "README.md" -a -mtime -1 | wc -l)
 if [ $NEW_FILES == 0 ]; then
   echo "No update"
-  echo "::set-output name=DO_UPDATE::0"
+  echo "DO_UPDATE=0" >> $GITHUB_OUTPUT
   exit 0
 else
   echo "Need update"
   echo "::group::new problems"
   find ./*/* -name "README.md" -a -mtime -1
   echo "::endgroup::"
-  echo "::set-output name=DO_UPDATE::1"
+  echo "DO_UPDATE=1" >> $GITHUB_OUTPUT
 fi
 
 OUTPUT=./README.md
