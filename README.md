@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Tue Nov  1 17:11:14 PDT 2022
+### last update: Thu Nov  3 17:11:35 PDT 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |8 |
-| medium |0 |
+| medium |1 |
 | hard |0 |
-| total | 8 |
+| total | 9 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 2131. Longest Palindrome by Concatenating Two Letter Words ](./2131.longest-palindrome-by-concatenating-two-letter-words/) | medium | 2022-11-03 11:03 | 
 | [ 876. Middle of the Linked List (The LeetCode Beginner's Guide) ](./876.middle-of-the-linked-list/) | easy | 2022-10-31 19:57 | 
 | [ 412. Fizz Buzz (The LeetCode Beginner's Guide) ](./412.fizz-buzz/) | easy | 2022-10-31 19:57 | 
 | [ 383. Ransom Note (The LeetCode Beginner's Guide) ](./383.ransom-note/) | easy | 2022-10-31 19:57 | 
