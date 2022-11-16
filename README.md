@@ -1,16 +1,18 @@
 # LeetCode 3rd turn
-### last update: Wed Nov  9 16:11:04 PST 2022
+### last update: Sat Nov 12 16:10:36 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |9 |
+| easy |11 |
 | medium |1 |
 | hard |0 |
-| total | 10 |
+| total | 12 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1047. Remove All Adjacent Duplicates In String ](./1047.remove-all-adjacent-duplicates-in-string/) | easy | 2022-11-12 07:04 | 
+| [ 26. Remove Duplicates from Sorted Array ](./26.remove-duplicates-from-sorted-array/) | easy | 2022-11-12 00:05 | 
 | [ 1544. Make The String Great ](./1544.make-the-string-great/) | easy | 2022-11-09 12:52 | 
 | [ 2131. Longest Palindrome by Concatenating Two Letter Words ](./2131.longest-palindrome-by-concatenating-two-letter-words/) | medium | 2022-11-03 11:03 | 
 | [ 876. Middle of the Linked List (The LeetCode Beginner's Guide) ](./876.middle-of-the-linked-list/) | easy | 2022-10-31 19:57 | 
