@@ -1,16 +1,19 @@
 # LeetCode 3rd turn
-### last update: Sat Nov 12 16:10:36 PST 2022
+### last update: Wed Nov 16 16:10:28 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |11 |
+| easy |14 |
 | medium |1 |
 | hard |0 |
-| total | 12 |
+| total | 15 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 191. Number of 1 Bits (Programming Skills I) ](./191.number-of-1-bits/) | easy | 2022-11-15 17:12 | 
+| [ 1491. Average Salary Excluding the Minimum and Maximum Salary (Programming Skills I) ](./1491.average-salary-excluding-the-minimum-and-maximum-salary/) | easy | 2022-11-15 16:56 | 
+| [ 1523. Count Odd Numbers in an Interval Range (Programming Skills I) ](./1523.count-odd-numbers-in-an-interval-range/) | easy | 2022-11-15 16:20 | 
 | [ 1047. Remove All Adjacent Duplicates In String ](./1047.remove-all-adjacent-duplicates-in-string/) | easy | 2022-11-12 07:04 | 
 | [ 26. Remove Duplicates from Sorted Array ](./26.remove-duplicates-from-sorted-array/) | easy | 2022-11-12 00:05 | 
 | [ 1544. Make The String Great ](./1544.make-the-string-great/) | easy | 2022-11-09 12:52 | 
