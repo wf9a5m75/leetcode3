@@ -1,16 +1,19 @@
 # LeetCode 3rd turn
-### last update: Wed Nov 16 16:10:28 PST 2022
+### last update: Sat Nov 19 16:10:27 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |14 |
+| easy |17 |
 | medium |1 |
 | hard |0 |
-| total | 15 |
+| total | 18 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 976. Largest Perimeter Triangle (The LeetCode Beginner's Guide) ](./976.largest-perimeter-triangle/) | easy | 2022-11-19 06:46 | 
+| [ 1281. Subtract the Product and Sum of Digits of an Integer (Programming Skills I) ](./1281.subtract-the-product-and-sum-of-digits-of-an-integer/) | easy | 2022-11-17 17:02 | 
+| [ 263. Ugly Number ](./263.ugly-number/) | easy | 2022-11-17 16:44 | 
 | [ 191. Number of 1 Bits (Programming Skills I) ](./191.number-of-1-bits/) | easy | 2022-11-15 17:12 | 
 | [ 1491. Average Salary Excluding the Minimum and Maximum Salary (Programming Skills I) ](./1491.average-salary-excluding-the-minimum-and-maximum-salary/) | easy | 2022-11-15 16:56 | 
 | [ 1523. Count Odd Numbers in an Interval Range (Programming Skills I) ](./1523.count-odd-numbers-in-an-interval-range/) | easy | 2022-11-15 16:20 | 
