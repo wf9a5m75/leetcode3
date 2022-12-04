@@ -1,16 +1,20 @@
 # LeetCode 3rd turn
-### last update: Sat Nov 19 16:10:27 PST 2022
+### last update: Sun Nov 27 16:09:52 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |17 |
-| medium |1 |
+| easy |18 |
+| medium |4 |
 | hard |0 |
-| total | 18 |
+| total | 22 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 279. Perfect Squares ](./279.perfect-squares/) | medium | 2022-11-27 11:44 | 
+| [ 1926. Nearest Exit from Entrance in Maze ](./1926.nearest-exit-from-entrance-in-maze/) | medium | 2022-11-27 11:43 | 
+| [ 487. Max Consecutive Ones II (Arrays 101) ](./487.max-consecutive-ones-ii/) | medium | 2022-11-27 07:23 | 
+| [ 1779. Find Nearest Point That Has the Same X or Y Coordinate (The LeetCode Beginner's Guide) ](./1779.find-nearest-point-that-has-the-same-x-or-y-coordinate/) | easy | 2022-11-21 12:42 | 
 | [ 976. Largest Perimeter Triangle (The LeetCode Beginner's Guide) ](./976.largest-perimeter-triangle/) | easy | 2022-11-19 06:46 | 
 | [ 1281. Subtract the Product and Sum of Digits of an Integer (Programming Skills I) ](./1281.subtract-the-product-and-sum-of-digits-of-an-integer/) | easy | 2022-11-17 17:02 | 
 | [ 263. Ugly Number ](./263.ugly-number/) | easy | 2022-11-17 16:44 | 
