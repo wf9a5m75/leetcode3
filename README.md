@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Sun Nov 27 16:09:52 PST 2022
+### last update: Sun Dec  4 16:09:11 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |18 |
-| medium |4 |
+| medium |5 |
 | hard |0 |
-| total | 22 |
+| total | 23 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 2256. Minimum Average Difference ](./2256.minimum-average-difference/) | medium | 2022-12-03 18:58 | 
 | [ 279. Perfect Squares ](./279.perfect-squares/) | medium | 2022-11-27 11:44 | 
 | [ 1926. Nearest Exit from Entrance in Maze ](./1926.nearest-exit-from-entrance-in-maze/) | medium | 2022-11-27 11:43 | 
 | [ 487. Max Consecutive Ones II (Arrays 101) ](./487.max-consecutive-ones-ii/) | medium | 2022-11-27 07:23 | 
