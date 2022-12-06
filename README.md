@@ -1,16 +1,18 @@
 # LeetCode 3rd turn
-### last update: Sun Dec  4 16:09:11 PST 2022
+### last update: Mon Dec  5 16:09:23 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |18 |
+| easy |20 |
 | medium |5 |
 | hard |0 |
-| total | 23 |
+| total | 25 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1502. Can Make Arithmetic Progression From Sequence (Programming Skills I) ](./1502.can-make-arithmetic-progression-from-sequence/) | easy | 2022-12-05 15:56 | 
+| [ 1822. Sign of the Product of an Array (Programming Skills I) ](./1822.sign-of-the-product-of-an-array/) | easy | 2022-12-04 16:20 | 
 | [ 2256. Minimum Average Difference ](./2256.minimum-average-difference/) | medium | 2022-12-03 18:58 | 
 | [ 279. Perfect Squares ](./279.perfect-squares/) | medium | 2022-11-27 11:44 | 
 | [ 1926. Nearest Exit from Entrance in Maze ](./1926.nearest-exit-from-entrance-in-maze/) | medium | 2022-11-27 11:43 | 
