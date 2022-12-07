@@ -1,16 +1,21 @@
 # LeetCode 3rd turn
-### last update: Mon Dec  5 16:09:23 PST 2022
+### last update: Tue Dec  6 16:09:22 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |20 |
-| medium |5 |
+| easy |24 |
+| medium |6 |
 | hard |0 |
-| total | 25 |
+| total | 30 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 496. Next Greater Element I (Programming Skills I) ](./496.next-greater-element-i/) | easy | 2022-12-06 10:53 | 
+| [ 589. N-ary Tree Preorder Traversal (Programming Skills I) ](./589.n-ary-tree-preorder-traversal/) | easy | 2022-12-05 23:27 | 
+| [ 328. Odd Even Linked List ](./328.odd-even-linked-list/) | medium | 2022-12-05 21:34 | 
+| [ 1790. Check if One String Swap Can Make Strings Equal (Programming Skills I) ](./1790.check-if-one-string-swap-can-make-strings-equal/) | easy | 2022-12-05 18:24 | 
+| [ 202. Happy Number (Programming Skills I) ](./202.happy-number/) | easy | 2022-12-05 17:34 | 
 | [ 1502. Can Make Arithmetic Progression From Sequence (Programming Skills I) ](./1502.can-make-arithmetic-progression-from-sequence/) | easy | 2022-12-05 15:56 | 
 | [ 1822. Sign of the Product of an Array (Programming Skills I) ](./1822.sign-of-the-product-of-an-array/) | easy | 2022-12-04 16:20 | 
 | [ 2256. Minimum Average Difference ](./2256.minimum-average-difference/) | medium | 2022-12-03 18:58 | 
