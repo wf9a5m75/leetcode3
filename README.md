@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Wed Dec  7 16:09:52 PST 2022
+### last update: Thu Dec  8 16:09:53 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |25 |
+| easy |26 |
 | medium |6 |
 | hard |0 |
-| total | 31 |
+| total | 32 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 872. Leaf-Similar Trees ](./872.leaf-similar-trees/) | easy | 2022-12-08 12:52 | 
 | [ 938. Range Sum of BST ](./938.range-sum-of-bst/) | easy | 2022-12-06 17:47 | 
 | [ 496. Next Greater Element I (Programming Skills I) ](./496.next-greater-element-i/) | easy | 2022-12-06 10:53 | 
 | [ 589. N-ary Tree Preorder Traversal (Programming Skills I) ](./589.n-ary-tree-preorder-traversal/) | easy | 2022-12-05 23:27 | 
