@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Thu Dec  8 16:09:53 PST 2022
+### last update: Fri Dec  9 16:09:06 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |26 |
-| medium |6 |
+| medium |7 |
 | hard |0 |
-| total | 32 |
+| total | 33 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1026. Maximum Difference Between Node and Ancestor ](./1026.maximum-difference-between-node-and-ancestor/) | medium | 2022-12-09 11:45 | 
 | [ 872. Leaf-Similar Trees ](./872.leaf-similar-trees/) | easy | 2022-12-08 12:52 | 
 | [ 938. Range Sum of BST ](./938.range-sum-of-bst/) | easy | 2022-12-06 17:47 | 
 | [ 496. Next Greater Element I (Programming Skills I) ](./496.next-greater-element-i/) | easy | 2022-12-06 10:53 | 
