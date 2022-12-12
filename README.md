@@ -1,16 +1,27 @@
 # LeetCode 3rd turn
-### last update: Fri Dec  9 16:09:06 PST 2022
+### last update: Sun Dec 11 16:09:02 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |26 |
+| easy |36 |
 | medium |7 |
 | hard |0 |
-| total | 33 |
+| total | 43 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 953. Verifying an Alien Dictionary (Programmers Skills I) ](./953.verifying-an-alien-dictionary/) | easy | 2022-12-11 12:35 | 
+| [ 1309. Decrypt String from Alphabet to Integer Mapping (Programming Skills I) ](./1309.decrypt-string-from-alphabet-to-integer-mapping/) | easy | 2022-12-10 23:29 | 
+| [ 709. To Lower Case (Programming Skills I) ](./709.to-lower-case/) | easy | 2022-12-10 23:00 | 
+| [ 389. Find the Difference (Programming Skills I) ](./389.find-the-difference/) | easy | 2022-12-10 22:52 | 
+| [ 1678. Goal Parser Interpretation (Programming Skills I) ](./1678.goal-parser-interpretation/) | easy | 2022-12-10 22:15 | 
+| [ 1768. Merge Strings Alternately (Programming Skills I) ](./1768.merge-strings-alternately/) | easy | 2022-12-10 22:07 | 
+| [ 566. Reshape the Matrix (Programming Skills I) ](./566.reshape-the-matrix/) | easy | 2022-12-10 21:40 | 
+| [ 1572. Matrix Diagonal Sum (Programming Skills I) ](./1572.matrix-diagonal-sum/) | easy | 2022-12-09 20:11 | 
+| [ 1672. Richest Customer Wealth (The LeetCode Beginner's Guide) (Programming Skills I) ](./1672.richest-customer-wealth/) | easy | 2022-12-09 20:02 | 
+| [ 283. Move Zeroes (Programming Skills I) ](./283.move-zeroes/) | easy | 2022-12-09 19:45 | 
+| [ 1232. Check If It Is a Straight Line (Programming Skills I) ](./1232.check-if-it-is-a-straight-line/) | easy | 2022-12-09 18:24 | 
 | [ 1026. Maximum Difference Between Node and Ancestor ](./1026.maximum-difference-between-node-and-ancestor/) | medium | 2022-12-09 11:45 | 
 | [ 872. Leaf-Similar Trees ](./872.leaf-similar-trees/) | easy | 2022-12-08 12:52 | 
 | [ 938. Range Sum of BST ](./938.range-sum-of-bst/) | easy | 2022-12-06 17:47 | 
@@ -41,7 +52,6 @@
 | [ 383. Ransom Note (The LeetCode Beginner's Guide) ](./383.ransom-note/) | easy | 2022-10-31 19:57 | 
 | [ 226. Invert Binary Tree (The LeetCode Beginner's Guide) ](./226.invert-binary-tree/) | easy | 2022-10-31 19:57 | 
 | [ 2235. Add Two Integers (The LeetCode Beginner's Guide) ](./2235.add-two-integers/) | easy | 2022-10-31 19:57 | 
-| [ 1672. Richest Customer Wealth (The LeetCode Beginner's Guide) ](./1672.richest-customer-wealth/) | easy | 2022-10-31 19:57 | 
 | [ 1480. Running Sum of 1d Array (The LeetCode Beginner's Guide) ](./1480.running-sum-of-1d-array/) | easy | 2022-10-31 19:57 | 
 | [ 1342. Number of Steps to Reduce a Number to Zero (The LeetCode Beginner's Guide) ](./1342.number-of-steps-to-reduce-a-number-to-zero/) | easy | 2022-10-31 19:57 | 
 
