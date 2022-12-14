@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Mon Dec 12 16:09:54 PST 2022
+### last update: Tue Dec 13 16:09:55 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |43 |
+| easy |44 |
 | medium |7 |
 | hard |0 |
-| total | 50 |
+| total | 51 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 303. Range Sum Query - Immutable (Programming Skills I) ](./303.range-sum-query-immutable/) | easy | 2022-12-13 10:48 | 
 | [ 217. Contains Duplicate (Programming Skills I) ](./217.contains-duplicate/) | easy | 2022-12-11 17:56 | 
 | [ 242. Valid Anagram (Programming Skills I) ](./242.valid-anagram/) | easy | 2022-12-11 17:49 | 
 | [ 232. Implement Queue using Stacks (Programming Skills I) ](./232.implement-queue-using-stacks/) | easy | 2022-12-11 17:19 | 
