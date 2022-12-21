@@ -1,16 +1,19 @@
 # LeetCode 3rd turn
-### last update: Mon Dec 19 16:08:25 PST 2022
+### last update: Tue Dec 20 16:08:40 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |46 |
-| medium |9 |
+| easy |47 |
+| medium |11 |
 | hard |0 |
-| total | 55 |
+| total | 58 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 746.Min Cost Climbing Stairs (Dynamic Programming) ](./746.min-cost-climbling-stairs/) | easy | 2022-12-20 12:11 | 
+| [ 198. House Robber (Dynamic Programming) ](./198.house-robber/) | medium | 2022-12-20 11:36 | 
+| [ 841. Keys and Rooms ](./841.keys-and-rooms/) | medium | 2022-12-19 19:24 | 
 | [ 1971. Find if Path Exists in Graph ](./1971.find-if-path-exists-in-graph/) | easy | 2022-12-19 15:23 | 
 | [ 739. Daily Temperatures ](./739.daily-temperatures/) | medium | 2022-12-18 18:02 | 
 | [ 150. Evaluate Reverse Polish Notation ](./150.evaluate-reverse-polish-notation/) | medium | 2022-12-17 07:25 | 
