@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Sat Dec 24 16:09:08 PST 2022
+### last update: Mon Dec 26 16:09:04 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |47 |
-| medium |12 |
+| medium |13 |
 | hard |0 |
-| total | 59 |
+| total | 60 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 55. Jump Game ](./53.jump-game/) | medium | 2022-12-26 13:16 | 
 | [ 309. Best Time to Buy and Sell Stock with Cooldown ](./309.best-time-to-buy-and-sell-stock-with-cooldown/) | medium | 2022-12-24 15:10 | 
 | [ 746.Min Cost Climbing Stairs (Dynamic Programming) ](./746.min-cost-climbling-stairs/) | easy | 2022-12-20 12:11 | 
 | [ 198. House Robber (Dynamic Programming) ](./198.house-robber/) | medium | 2022-12-20 11:36 | 
