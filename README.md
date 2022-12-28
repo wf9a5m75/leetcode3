@@ -1,16 +1,19 @@
 # LeetCode 3rd turn
-### last update: Mon Dec 26 16:09:04 PST 2022
+### last update: Tue Dec 27 16:08:47 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |47 |
-| medium |13 |
+| easy |48 |
+| medium |15 |
 | hard |0 |
-| total | 60 |
+| total | 63 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 2150. Find All Lonely Numbers in the Array ](./2150.find-all-lonely-numbers-in-the-array/) | medium | 2022-12-27 11:08 | 
+| [ 1704. Determine if String Halves Are Alike ](./1704.determine-if-string-halves-are-alike/) | easy | 2022-12-27 09:33 | 
+| [ 2279. Maximum Bags With Full Capacity of Rocks ](./2279.maximum-bags-with-full-capacity-of-rocks/) | medium | 2022-12-26 17:46 | 
 | [ 55. Jump Game ](./53.jump-game/) | medium | 2022-12-26 13:16 | 
 | [ 309. Best Time to Buy and Sell Stock with Cooldown ](./309.best-time-to-buy-and-sell-stock-with-cooldown/) | medium | 2022-12-24 15:10 | 
 | [ 746.Min Cost Climbing Stairs (Dynamic Programming) ](./746.min-cost-climbling-stairs/) | easy | 2022-12-20 12:11 | 
