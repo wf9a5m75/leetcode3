@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Tue Dec 27 16:08:47 PST 2022
+### last update: Wed Dec 28 16:08:39 PST 2022
 ## summary
 | level | counts |
 |-|-|
 | easy |48 |
-| medium |15 |
+| medium |16 |
 | hard |0 |
-| total | 63 |
+| total | 64 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1962. Remove Stones to Minimize the Total ](./1962.remove-stones-to-minimize-the-total/) | medium | 2022-12-27 17:13 | 
 | [ 2150. Find All Lonely Numbers in the Array ](./2150.find-all-lonely-numbers-in-the-array/) | medium | 2022-12-27 11:08 | 
 | [ 1704. Determine if String Halves Are Alike ](./1704.determine-if-string-halves-are-alike/) | easy | 2022-12-27 09:33 | 
 | [ 2279. Maximum Bags With Full Capacity of Rocks ](./2279.maximum-bags-with-full-capacity-of-rocks/) | medium | 2022-12-26 17:46 | 
