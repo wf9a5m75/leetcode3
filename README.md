@@ -1,16 +1,18 @@
 # LeetCode 3rd turn
-### last update: Wed Dec 28 16:08:39 PST 2022
+### last update: Thu Dec 29 16:08:40 PST 2022
 ## summary
 | level | counts |
 |-|-|
-| easy |48 |
-| medium |16 |
+| easy |49 |
+| medium |17 |
 | hard |0 |
-| total | 64 |
+| total | 66 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1137. N-th Tribonacci Number (Dynamic Programming) ](./1137.n-th-tribonacci-number/) | easy | 2022-12-28 23:05 | 
+| [ 1834. Single-Threaded CPU ](./1834.single-threaded-cpu/) | medium | 2022-12-28 23:02 | 
 | [ 1962. Remove Stones to Minimize the Total ](./1962.remove-stones-to-minimize-the-total/) | medium | 2022-12-27 17:13 | 
 | [ 2150. Find All Lonely Numbers in the Array ](./2150.find-all-lonely-numbers-in-the-array/) | medium | 2022-12-27 11:08 | 
 | [ 1704. Determine if String Halves Are Alike ](./1704.determine-if-string-halves-are-alike/) | easy | 2022-12-27 09:33 | 
