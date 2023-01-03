@@ -1,16 +1,18 @@
 # LeetCode 3rd turn
-### last update: Fri Dec 30 16:08:34 PST 2022
+### last update: Mon Jan  2 16:08:25 PST 2023
 ## summary
 | level | counts |
 |-|-|
-| easy |49 |
+| easy |51 |
 | medium |18 |
 | hard |0 |
-| total | 67 |
+| total | 69 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 290. Word Pattern ](./290.word-pattern/) | easy | 2023-01-01 17:03 | 
+| [ 520. Detect Capital ](./520.detect-capital/) | easy | 2023-01-01 16:50 | 
 | [ 797. All Paths From Source to Target ](./797.all-paths-from-source-to-target/) | medium | 2022-12-29 23:43 | 
 | [ 1137. N-th Tribonacci Number (Dynamic Programming) ](./1137.n-th-tribonacci-number/) | easy | 2022-12-28 23:05 | 
 | [ 1834. Single-Threaded CPU ](./1834.single-threaded-cpu/) | medium | 2022-12-28 23:02 | 
