@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Mon Jan  2 16:08:25 PST 2023
+### last update: Tue Jan  3 16:08:40 PST 2023
 ## summary
 | level | counts |
 |-|-|
-| easy |51 |
+| easy |52 |
 | medium |18 |
 | hard |0 |
-| total | 69 |
+| total | 70 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 944. Delete Columns to Make Sorted ](./944.delete-columns-to-make-sorted/) | easy | 2023-01-03 12:11 | 
 | [ 290. Word Pattern ](./290.word-pattern/) | easy | 2023-01-01 17:03 | 
 | [ 520. Detect Capital ](./520.detect-capital/) | easy | 2023-01-01 16:50 | 
 | [ 797. All Paths From Source to Target ](./797.all-paths-from-source-to-target/) | medium | 2022-12-29 23:43 | 
