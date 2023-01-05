@@ -1,16 +1,20 @@
 # LeetCode 3rd turn
-### last update: Tue Jan  3 16:08:40 PST 2023
+### last update: Wed Jan  4 16:08:57 PST 2023
 ## summary
 | level | counts |
 |-|-|
-| easy |52 |
-| medium |18 |
+| easy |54 |
+| medium |19 |
 | hard |0 |
-| total | 70 |
+| total | 73 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 161. One Edit Distance (TODO: Retry again later) ](./161.one-edit-distance/) | retryagainlater)##level | 2023-01-04 10:53 | 
+| [ 157. Read N Characters Given Read4 ](./157.read-n-characters-given-read4/) | easy | 2023-01-03 18:32 | 
+| [ 1. Two Sum ](./1.two-sum/) | easy | 2023-01-03 17:37 | 
+| [ 2244. Minimum Rounds to Complete All Tasks ](./2244.minimum-rounds-to-complete-all-tasks/) | medium | 2023-01-03 17:25 | 
 | [ 944. Delete Columns to Make Sorted ](./944.delete-columns-to-make-sorted/) | easy | 2023-01-03 12:11 | 
 | [ 290. Word Pattern ](./290.word-pattern/) | easy | 2023-01-01 17:03 | 
 | [ 520. Detect Capital ](./520.detect-capital/) | easy | 2023-01-01 16:50 | 
