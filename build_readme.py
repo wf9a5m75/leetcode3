@@ -104,7 +104,7 @@ with open("./README.md", "w") as f:
             languages.append("![](./images/python.png)")
         if (meta["hasKotlin"]):
             languages.append("![](./images/kotlin.png)")
-        languages = ", ".join(languages)
+        languages = " ".join(languages)
         line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { meta['ctime'] }  | { languages } |\n"
         f.write(line)
 f.close()
