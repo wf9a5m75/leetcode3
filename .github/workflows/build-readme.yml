@@ -29,9 +29,6 @@ jobs:
       - name: Restore file time stamp
         uses: chetan/git-restore-mtime-action@v1
 
-      - name: Remove the old README.md
-        run: rm -rf README.md
-
       - name: update README.md
         id: build
         run: python .github/build_readme.py
