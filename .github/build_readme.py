@@ -74,7 +74,8 @@ for file in readMeFiles:
     meta["tags"] = ", ".join(list(map(lambda it: f"`{it}`", meta["tags"])))
 
     level = meta["level"].lower()
-    countLevels[level] += 1
+    if level in countLevels:
+        countLevels[level] += 1
     outputs.append(meta)
 
 total = countLevels['easy'] + countLevels['medium'] + countLevels['hard']
