@@ -19,8 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Exit if no commit since yesterday
-        outputs:
-          git log --after 'yesterday' --invert-grep --author='action@github.com'
+        run: bash pre_check.sh
 
       - name: setup python3
         uses: actions/setup-python@v4
