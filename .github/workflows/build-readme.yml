@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Exit if no commit since yesterday
-        run: bash pre_check.sh
+        run: bash .github/pre_check.sh
 
       - name: setup python3
         uses: actions/setup-python@v4
