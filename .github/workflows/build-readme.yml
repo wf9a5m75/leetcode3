@@ -20,7 +20,7 @@ jobs:
 
       - name: Exit if no commit since yesterday
         id: precheck
-        run: bash .github/pre_check.sh
+        run: bash pre_check.sh
 
       - name: setup python3
         if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}
@@ -34,7 +34,7 @@ jobs:
 
       - name: update README.md
         if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}
-        run: python .github/build_readme.py
+        run: python build_readme.py
 
       - name: Commit & push the README.md file
         if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}

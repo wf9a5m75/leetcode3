@@ -54,7 +54,7 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
 
     return results
 
-readMeFiles = glob.glob("../*/README.md")
+readMeFiles = glob.glob("./*/README.md")
 readMeFiles.sort(
     key = lambda filePath: os.path.getctime(filePath),
     reverse = True
@@ -81,7 +81,7 @@ for file in readMeFiles:
 total = countLevels['easy'] + countLevels['medium'] + countLevels['hard']
 last_update_time = time.strftime("%Y-%m-%d %H:%M PT", time.gmtime())
 
-with open("../README.md", "w") as f:
+with open("./README.md", "w") as f:
 
     f.write(f"""
 # LeetCode 3rd turn
