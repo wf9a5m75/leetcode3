@@ -1,8 +1,10 @@
 #!/bin/bash
 
+git log --after 'yesterday' --invert-grep --author='action@github.com'
+
 NEW_FILES=$(git log --after 'yesterday' --invert-grep --author='action@github.com' | wc -l)
 if [[ $NEW_FILES -gt 0 ]]; then
-  echo "::set-output name=DO_UPDATE::1"
+  echo "DO_UPDATE=1" >> $GITHUB_OUTPUT
 else
-  echo "::set-output name=DO_UPDATE::0"
+  echo "DO_UPDATE=0" >> $GITHUB_OUTPUT
 fi
