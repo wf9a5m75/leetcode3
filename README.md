@@ -1,16 +1,17 @@
 # LeetCode 3rd turn
-### last update: Thu Jan  5 16:08:32 PST 2023
+### last update: Fri Jan  6 16:08:34 PST 2023
 ## summary
 | level | counts |
 |-|-|
 | easy |54 |
-| medium |20 |
+| medium |21 |
 | hard |0 |
-| total | 74 |
+| total | 75 |
 
 ## questions
 | problem | level| last modified |
 |-|-|-|
+| [ 1833. Maximum Ice Cream Bars ](./1833.maximum-ice-cream-bars/) | medium | 2023-01-05 16:14 | 
 | [ 452. Minimum Number of Arrows to Burst Balloons ](./452.minimum-number-of-arrows-to-burst-balloons/) | medium | 2023-01-05 11:37 | 
 | [ 161. One Edit Distance (TODO: Retry again later) ](./161.one-edit-distance/) | retryagainlater)##level | 2023-01-04 10:53 | 
 | [ 157. Read N Characters Given Read4 ](./157.read-n-characters-given-read4/) | easy | 2023-01-03 18:32 | 
