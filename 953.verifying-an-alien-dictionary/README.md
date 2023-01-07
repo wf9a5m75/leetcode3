@@ -1,4 +1,6 @@
-# 953. Verifying an Alien Dictionary (Programming Skills I)
+# 953. Verifying an Alien Dictionary
 ## level: Easy
+
+- tag: Programming Skills I
 
 https://leetcode.com/problems/verifying-an-alien-dictionary/

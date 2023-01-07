@@ -1,4 +1,6 @@
-# 1603. Design Parking System (Programming Skills I)
+# 1603. Design Parking System
 ## level: Easy
+
+- tag: Programming Skills I
 
 https://leetcode.com/problems/design-parking-system/

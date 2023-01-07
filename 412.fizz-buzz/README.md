@@ -1,4 +1,6 @@
-# 412. Fizz Buzz (The LeetCode Beginner's Guide)
+# 412. Fizz Buzz
 ## level: Easy
+
+- tag: The LeetCode Beginner's Guide
 
 https://leetcode.com/problems/fizz-buzz/

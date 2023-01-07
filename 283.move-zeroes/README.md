@@ -1,4 +1,6 @@
-# 283. Move Zeroes (Programming Skills I)
+# 283. Move Zeroes
 ## level: Easy
+
+- tag: Programming Skills I
 
 https://leetcode.com/problems/move-zeroes/
