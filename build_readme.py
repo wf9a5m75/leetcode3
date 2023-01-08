@@ -27,38 +27,36 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
         "title": "",
         "level": "",
         "tags": [],
-        "ctime": "",
+        "lastModified": "",
         "hasPython": False,
         "hasKotlin": False
     }
 
+    lastModified = 0
     filesInDir = os.listdir(dirPath)
     for file in filesInDir:
         pathParts = os.path.splitext(file)
         filename = pathParts[-2]
         ext = pathParts[-1]
+        filePath = f"{dirPath}/{file}"
 
         if (ext == ".py"):
             results["hasPython"] = True
+            lastModified = max(lastModified, os.path.getctime(filePath))
         elif (ext == ".kt"):
             results["hasKotlin"] = True
+            lastModified = max(lastModified, os.path.getctime(filePath))
         elif (filename == "README" and ext == ".md"):
-            filePath = f"{dirPath}/{file}"
             title, level, tags = parseReadMe(filePath)
             results["title"] = title
             results["level"] = level
             results["tags"] = tags
 
-            ctime = os.path.getctime(filePath)
-            results["ctime"] = time.strftime("%Y-%m-%d", time.gmtime(ctime))
+    results["lastModified"] = lastModified
 
     return results
 
 readMeFiles = glob.glob("./*/README.md")
-readMeFiles.sort(
-    key = lambda filePath: os.path.getctime(filePath),
-    reverse = True
-)
 
 countLevels = {
     "easy": 0,
@@ -78,8 +76,13 @@ for file in readMeFiles:
         countLevels[level] += 1
     outputs.append(meta)
 
+outputs.sort(
+    key = lambda meta: meta["lastModified"],
+    reverse = True
+)
+
 total = countLevels['easy'] + countLevels['medium'] + countLevels['hard']
-last_update_time = time.strftime("%Y-%m-%d %H:%M PT", time.gmtime())
+last_update_time = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
 
 with open("./README.md", "w") as f:
 
@@ -99,12 +102,15 @@ with open("./README.md", "w") as f:
 |-|-|-|-|-|\n""")
 
     for meta in outputs:
+        lastModified = time.strftime("%Y-%m-%d",
+                            time.gmtime(meta["lastModified"]))
+
         languages = []
         if (meta["hasPython"]):
             languages.append("![](./images/python.png)")
         if (meta["hasKotlin"]):
             languages.append("![](./images/kotlin.png)")
         languages = " ".join(languages)
-        line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { meta['ctime'] }  | { languages } |\n"
+        line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { lastModified }  | { languages } |\n"
         f.write(line)
 f.close()
