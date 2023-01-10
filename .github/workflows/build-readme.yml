@@ -21,7 +21,6 @@ jobs:
       - name: Exit if no commit since yesterday
         id: precheck
         run: |
-          ls
           ./pre_check.sh
 
       - name: setup python3

@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-NEW_FILES=$(git  --no-pager log --after 'yesterday' --invert-grep --author='action@github.com')
+NEW_FILES=$(git log --after 'yesterday' --invert-grep --author='action@github.com')
 echo $NEW_FILES
 # if [[ $NEW_FILES -gt 0 ]]; then
 #   echo "DO_UPDATE=1" >> $GITHUB_OUTPUT
