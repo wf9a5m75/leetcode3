@@ -20,7 +20,9 @@ jobs:
 
       - name: Exit if no commit since yesterday
         id: precheck
-        run: bash pre_check.sh
+        run: |
+          ls
+          ./pre_check.sh
 
       - name: setup python3
         if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}
