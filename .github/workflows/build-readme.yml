@@ -18,6 +18,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Restore file time stamp
+        uses: chetan/git-restore-mtime-action@v1
+
       - name: Exit if no commit since yesterday
         id: precheck
         run: bash pre_check.sh
@@ -27,10 +30,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
-
-      - name: Restore file time stamp
-        if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}
-        uses: chetan/git-restore-mtime-action@v1
 
       - name: update README.md
         if: ${{ steps.precheck.outputs.DO_UPDATE == 1 }}
