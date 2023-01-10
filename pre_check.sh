@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-#NEW_FILES=$(git log --after 'yesterday' --invert-grep --author='action@github.com')
+#NEW_COMMITS=$(git log --after 'yesterday' --invert-grep --author='action@github.com')
 git version
-git log --after 'yesterday' --invert-grep --author='action@github.com'
-
-# if [[ $NEW_FILES -gt 0 ]]; then
-#   echo "DO_UPDATE=1" >> $GITHUB_OUTPUT
-# else
-#   echo "DO_UPDATE=0" >> $GITHUB_OUTPUT
-# fi
+NEW_COMMITS=$(git log --since 'yesterday' --invert-grep --author='action@github.com' | wc -l )
+echo "NEW COMMITS: $NEW_COMMITS"
+if [[ $NEW_COMMITS -gt 0 ]]; then
+  echo "DO_UPDATE=1" >> $GITHUB_OUTPUT
+else
+  echo "DO_UPDATE=0" >> $GITHUB_OUTPUT
+fi
