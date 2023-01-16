@@ -42,10 +42,10 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
 
         if (ext == ".py"):
             results["hasPython"] = True
-            lastModified = max(lastModified, os.path.getctime(filePath))
+            lastModified = max(lastModified, os.path.getmtime(filePath))
         elif (ext == ".kt"):
             results["hasKotlin"] = True
-            lastModified = max(lastModified, os.path.getctime(filePath))
+            lastModified = max(lastModified, os.path.getmtime(filePath))
         elif (filename == "README" and ext == ".md"):
             title, level, tags = parseReadMe(filePath)
             results["title"] = title
