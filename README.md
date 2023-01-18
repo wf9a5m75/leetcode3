@@ -1,6 +1,6 @@
 
 # LeetCode 3rd turn
-### last update: 2023-01-17 00:08 UTC
+### last update: 2023-01-18 00:08 UTC
 ## summary
 | level | counts |
 |-|-|
@@ -12,6 +12,7 @@
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [740. Delete and Earn](./740.delete-and-earn) | Medium | `Dynamic Programming`  | 2023-01-17  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [57. Insert Interval](./57.insert-interval) | Medium |   | 2023-01-16  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1061. Lexicographically Smallest Equivalent String](./1061.lexicographically-smallest-equivalent-string) | Medium |   | 2023-01-15  | ![](./images/python.png) |
 | [1443. Minimum Time to Collect All Apples in a Tree](./1443.minimum-time-to-collect-all-apples-in-a-tree) | Medium | `TODO`  | 2023-01-11  | ![](./images/python.png) |
@@ -90,7 +91,6 @@
 | [1768. Merge Strings Alternately](./1768.merge-strings-alternately) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [589. N-ary Tree Preorder Traversal](./589.n-ary-tree-preorder-traversal) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [412. Fizz Buzz](./412.fizz-buzz) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
-| [740. Delete and Earn](./740.delete-and-earn) | Medium | `Dynamic Programming`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1. Two Sum](./1.two-sum) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2131. Longest Palindrome by Concatenating Two Letter Words](./2131.longest-palindrome-by-concatenating-two-letter-words) | Medium |   | 2023-01-10  | ![](./images/kotlin.png) |
