@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-01-29 00:09 UTC
+### last update: 2023-02-05 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 56 |
-| medium | 31  |
+| medium | 32  |
 | hard | 1  |
-| total | 88  |
+| total | 89  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [6. Zigzag Conversion](./6.zigzag-conversion) | Medium |   | 2023-02-04  | ![](./images/python.png) |
 | [93. Restore IP Addresses](./93.restore-ip-addresses) | Medium |   | 2023-01-28  | ![](./images/python.png) |
 | [740. Delete and Earn](./740.delete-and-earn) | Medium | `Dynamic Programming`  | 2023-01-17  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [57. Insert Interval](./57.insert-interval) | Medium |   | 2023-01-16  | ![](./images/python.png) ![](./images/kotlin.png) |
