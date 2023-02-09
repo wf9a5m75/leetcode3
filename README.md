@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-02-08 00:09 UTC
+### last update: 2023-02-09 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 57 |
-| medium | 32  |
+| medium | 34  |
 | hard | 1  |
-| total | 90  |
+| total | 92  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [904. Fruit Into Baskets](./904.fruit-into-baskets) | Medium |   | 2023-02-08  | ![](./images/python.png) |
+| [45. Jump Game II](./45.jump-game-ii) | Medium |   | 2023-02-08  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1470. Shuffle the Array](./1470.shuffle-the-array) | Easy |   | 2023-02-07  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [6. Zigzag Conversion](./6.zigzag-conversion) | Medium |   | 2023-02-04  | ![](./images/python.png) |
 | [93. Restore IP Addresses](./93.restore-ip-addresses) | Medium |   | 2023-01-28  | ![](./images/python.png) |
