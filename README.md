@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-02-09 00:09 UTC
+### last update: 2023-02-10 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 57 |
 | medium | 34  |
-| hard | 1  |
-| total | 92  |
+| hard | 2  |
+| total | 93  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [2306. Naming a Company](./2306.naming-a-company) | Hard |   | 2023-02-09  | ![](./images/python.png) |
 | [904. Fruit Into Baskets](./904.fruit-into-baskets) | Medium |   | 2023-02-08  | ![](./images/python.png) |
 | [45. Jump Game II](./45.jump-game-ii) | Medium |   | 2023-02-08  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1470. Shuffle the Array](./1470.shuffle-the-array) | Easy |   | 2023-02-07  | ![](./images/python.png) ![](./images/kotlin.png) |
