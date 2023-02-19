@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-02-18 00:09 UTC
+### last update: 2023-02-19 00:10 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 58 |
 | medium | 35  |
-| hard | 2  |
-| total | 95  |
+| hard | 3  |
+| total | 96  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [226. Invert Binary Tree](./226.invert-binary-tree) | Easy | `The LeetCode Beginner's Guide`  | 2023-02-18  | ![](./images/python.png) ![](./images/kotlin.png) |
+| [1770. Maximum Score from Performing Multiplication Operations](./1770.maximum-score-from-performing-multiplication-operations) | Hard | `Dynamic Programming`  | 2023-02-18  | ![](./images/python.png) |
 | [783. Minimum Distance Between BST Nodes](./783.minimum-distance-between-bst-nodes) | Easy |   | 2023-02-17  | ![](./images/python.png) |
 | [1162. As Far from Land as Possible](./1162.as-far-from-land-as-possible) | Medium |   | 2023-02-13  | ![](./images/python.png) |
 | [2306. Naming a Company](./2306.naming-a-company) | Hard |   | 2023-02-09  | ![](./images/python.png) |
@@ -57,7 +59,6 @@
 | [1962. Remove Stones to Minimize the Total](./1962.remove-stones-to-minimize-the-total) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1572. Matrix Diagonal Sum](./1572.matrix-diagonal-sum) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [566. Reshape the Matrix](./566.reshape-the-matrix) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) |
-| [226. Invert Binary Tree](./226.invert-binary-tree) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [303. Range Sum Query - Immutable](./303.range-sum-query-immutable) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [242. Valid Anagram](./242.valid-anagram) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1672. Richest Customer Wealth](./1672.richest-customer-wealth) | Easy | `The LeetCode Beginner's Guide`, `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
