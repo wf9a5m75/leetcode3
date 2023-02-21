@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-02-20 00:09 UTC
+### last update: 2023-02-21 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 58 |
+| easy | 59 |
 | medium | 36  |
 | hard | 3  |
-| total | 97  |
+| total | 98  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [35. Search Insert Position](./35.search-insert-position) | Easy |   | 2023-02-20  | ![](./images/python.png) |
 | [103. Binary Tree Zigzag Level Order Traversal](./103.binary-tree-zigzag-level-order-traversal) | Medium |   | 2023-02-19  | ![](./images/python.png) |
 | [226. Invert Binary Tree](./226.invert-binary-tree) | Easy | `The LeetCode Beginner's Guide`  | 2023-02-18  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1770. Maximum Score from Performing Multiplication Operations](./1770.maximum-score-from-performing-multiplication-operations) | Hard | `Dynamic Programming`  | 2023-02-18  | ![](./images/python.png) |
