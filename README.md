@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-02-23 00:09 UTC
+### last update: 2023-02-26 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 59 |
-| medium | 37  |
+| easy | 60 |
+| medium | 38  |
 | hard | 3  |
-| total | 99  |
+| total | 101  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [121. Best Time to Buy and Sell Stock](./121.best-time-to-buy-and-sell-stock) | Easy |   | 2023-02-25  | ![](./images/python.png) |
+| [1673. Find the Most Competitive Subsequence](./1673.find-the-most-competitive-subsequence) | Medium | `TODO`  | 2023-02-25  | ![](./images/python.png) |
 | [1011. Capacity To Ship Packages Within D Days](./1011.capacity-to-ship-packages-within-d-days) | Medium |   | 2023-02-22  | ![](./images/python.png) |
 | [35. Search Insert Position](./35.search-insert-position) | Easy |   | 2023-02-20  | ![](./images/python.png) |
 | [103. Binary Tree Zigzag Level Order Traversal](./103.binary-tree-zigzag-level-order-traversal) | Medium |   | 2023-02-19  | ![](./images/python.png) |
