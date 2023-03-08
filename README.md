@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-02 00:10 UTC
+### last update: 2023-03-03 01:49 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 60 |
-| medium | 39  |
+| medium | 40  |
 | hard | 3  |
-| total | 102  |
+| total | 103  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [443. String Compression](./443.string-compression) | Medium |   | 2023-03-02  | ![](./images/python.png) |
 | [912. Sort an Array](./912.sort-an-array) | Medium |   | 2023-03-01  | ![](./images/python.png) |
 | [121. Best Time to Buy and Sell Stock](./121.best-time-to-buy-and-sell-stock) | Easy |   | 2023-02-25  | ![](./images/python.png) |
 | [1673. Find the Most Competitive Subsequence](./1673.find-the-most-competitive-subsequence) | Medium | `TODO`  | 2023-02-25  | ![](./images/python.png) |
