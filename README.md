@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-03 01:49 UTC
+### last update: 2023-03-09 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 60 |
-| medium | 40  |
+| easy | 61 |
+| medium | 41  |
 | hard | 3  |
-| total | 103  |
+| total | 105  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1539. Kth Missing Positive Number](./1539.kth-missing-positive-number) | Easy |   | 2023-03-08  | ![](./images/python.png) |
+| [875. Koko Eating Bananas](./875.koko-eating-bananas) | Medium |   | 2023-03-08  | ![](./images/python.png) |
 | [443. String Compression](./443.string-compression) | Medium |   | 2023-03-02  | ![](./images/python.png) |
 | [912. Sort an Array](./912.sort-an-array) | Medium |   | 2023-03-01  | ![](./images/python.png) |
 | [121. Best Time to Buy and Sell Stock](./121.best-time-to-buy-and-sell-stock) | Easy |   | 2023-02-25  | ![](./images/python.png) |
