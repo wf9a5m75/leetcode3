@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-11 00:08 UTC
+### last update: 2023-03-12 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 61 |
-| medium | 42  |
+| medium | 44  |
 | hard | 3  |
-| total | 106  |
+| total | 108  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [109. Convert Sorted List to Binary Search Tree](./109.convert-sorted-list-to-binary-search-tree) | Medium |   | 2023-03-11  | ![](./images/python.png) |
+| [98. Validate Binary Search Tree](./98.validate-binary-search-tree) | Medium |   | 2023-03-11  | ![](./images/python.png) |
 | [382. Linked List Random Node](./382.linked-list-random-node) | Medium |   | 2023-03-10  | ![](./images/python.png) |
 | [1539. Kth Missing Positive Number](./1539.kth-missing-positive-number) | Easy |   | 2023-03-08  | ![](./images/python.png) |
 | [875. Koko Eating Bananas](./875.koko-eating-bananas) | Medium |   | 2023-03-08  | ![](./images/python.png) |
