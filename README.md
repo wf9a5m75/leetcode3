@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-12 00:09 UTC
+### last update: 2023-03-13 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 61 |
 | medium | 44  |
-| hard | 3  |
-| total | 108  |
+| hard | 4  |
+| total | 109  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [23. Merge k Sorted Lists](./23.merge-k-sorted-lists) | Hard |   | 2023-03-12  | ![](./images/python.png) |
 | [109. Convert Sorted List to Binary Search Tree](./109.convert-sorted-list-to-binary-search-tree) | Medium |   | 2023-03-11  | ![](./images/python.png) |
 | [98. Validate Binary Search Tree](./98.validate-binary-search-tree) | Medium |   | 2023-03-11  | ![](./images/python.png) |
 | [382. Linked List Random Node](./382.linked-list-random-node) | Medium |   | 2023-03-10  | ![](./images/python.png) |
