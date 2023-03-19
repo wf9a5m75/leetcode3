@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-17 00:08 UTC
+### last update: 2023-03-19 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 61 |
-| medium | 46  |
+| medium | 47  |
 | hard | 4  |
-| total | 111  |
+| total | 112  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1472. Design Browser History](./1472.design-browser-history) | Medium |   | 2023-03-18  | ![](./images/python.png) |
 | [106. Construct Binary Tree from Inorder and Postorder Traversal](./106.construct-binary-tree-from-inorder-and-postorder-traversal) | Medium |   | 2023-03-16  | ![](./images/python.png) |
 | [129. Sum Root to Leaf Numbers](./129.sum-root-to-leaf-numbers) | Medium |   | 2023-03-14  | ![](./images/python.png) |
 | [23. Merge k Sorted Lists](./23.merge-k-sorted-lists) | Hard |   | 2023-03-12  | ![](./images/python.png) |
