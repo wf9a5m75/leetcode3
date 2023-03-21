@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-19 00:09 UTC
+### last update: 2023-03-21 00:08 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 61 |
+| easy | 62 |
 | medium | 47  |
 | hard | 4  |
-| total | 112  |
+| total | 113  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [605. Can Place Flowers](./605.can-place-flowers) | Easy |   | 2023-03-20  | ![](./images/python.png) |
 | [1472. Design Browser History](./1472.design-browser-history) | Medium |   | 2023-03-18  | ![](./images/python.png) |
 | [106. Construct Binary Tree from Inorder and Postorder Traversal](./106.construct-binary-tree-from-inorder-and-postorder-traversal) | Medium |   | 2023-03-16  | ![](./images/python.png) |
 | [129. Sum Root to Leaf Numbers](./129.sum-root-to-leaf-numbers) | Medium |   | 2023-03-14  | ![](./images/python.png) |
