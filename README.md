@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-22 00:07 UTC
+### last update: 2023-03-23 00:08 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 62 |
-| medium | 48  |
+| medium | 49  |
 | hard | 4  |
-| total | 114  |
+| total | 115  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [2492. Minimum Score of a Path Between Two Cities](./2492.minimum-score-of-a-path-between-two-cities) | Medium |   | 2023-03-22  | ![](./images/python.png) |
 | [2348. Number of Zero-Filled Subarrays](./2348.number-of-zero-filled-subarrays) | Medium |   | 2023-03-21  | ![](./images/python.png) |
 | [605. Can Place Flowers](./605.can-place-flowers) | Easy |   | 2023-03-20  | ![](./images/python.png) |
 | [1472. Design Browser History](./1472.design-browser-history) | Medium |   | 2023-03-18  | ![](./images/python.png) |
