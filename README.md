@@ -1,18 +1,22 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-23 00:08 UTC
+### last update: 2023-03-24 00:08 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 62 |
-| medium | 49  |
+| easy | 64 |
+| medium | 51  |
 | hard | 4  |
-| total | 115  |
+| total | 119  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [2492. Minimum Score of a Path Between Two Cities](./2492.minimum-score-of-a-path-between-two-cities) | Medium |   | 2023-03-22  | ![](./images/python.png) |
+| [21. Merge Two Sorted Lists](./21.merge-two-sorted-lists) | Easy |   | 2023-03-23  | ![](./images/python.png) |
+| [206. Reverse Linked List](./206.reverse-linked-list) | Easy |   | 2023-03-23  | ![](./images/python.png) |
+| [1319. Number of Operations to Make Network Connected](./1319.number-of-operations-to-make-network-connected) | Medium |   | 2023-03-23  | ![](./images/python.png) |
+| [2492. Minimum Score of a Path Between Two Cities](./2492.minimum-score-of-a-path-between-two-cities) | Medium |   | 2023-03-23  | ![](./images/python.png) |
+| [237. Delete Node in a Linked List](./237.delete-node-in-a-linked-list) | Medium |   | 2023-03-22  | ![](./images/python.png) |
 | [2348. Number of Zero-Filled Subarrays](./2348.number-of-zero-filled-subarrays) | Medium |   | 2023-03-21  | ![](./images/python.png) |
 | [605. Can Place Flowers](./605.can-place-flowers) | Easy |   | 2023-03-20  | ![](./images/python.png) |
 | [1472. Design Browser History](./1472.design-browser-history) | Medium |   | 2023-03-18  | ![](./images/python.png) |
