@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2023-03-24 00:08 UTC
+### last update: 2023-03-26 00:09 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 64 |
-| medium | 51  |
+| medium | 52  |
 | hard | 4  |
-| total | 119  |
+| total | 120  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](./2316.count-unreachable-pairs-of-nodes-in-an-undirected-graph) | Medium |   | 2023-03-25  | ![](./images/python.png) |
 | [21. Merge Two Sorted Lists](./21.merge-two-sorted-lists) | Easy |   | 2023-03-23  | ![](./images/python.png) |
 | [206. Reverse Linked List](./206.reverse-linked-list) | Easy |   | 2023-03-23  | ![](./images/python.png) |
 | [1319. Number of Operations to Make Network Connected](./1319.number-of-operations-to-make-network-connected) | Medium |   | 2023-03-23  | ![](./images/python.png) |
