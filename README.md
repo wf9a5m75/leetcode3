@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-08-28 01:53 UTC
+### last update: 2023-08-29 00:13 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 67 |
+| easy | 69 |
 | medium | 53  |
 | hard | 5  |
-| total | 125  |
+| total | 127  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [58. Length of Last Word](./58.length-of-last-word) | Easy |   | 2023-08-28  | ![](./images/python.png) |
+| [896. Monotonic Array](./896.monotonic-array) | Easy | `Programming Skills`  | 2023-08-28  | ![](./images/python.png) |
 | [66. Plus One](./66.plus-one) | Easy |   | 2023-08-28  | ![](./images/python.png) |
 | [283. Move Zeroes](./283.move-zeroes) | Easy | `Programming Skills I`  | 2023-08-28  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [459. Repeated Substring Pattern](./459.repeated-substring-pattern) | Easy |   | 2023-08-27  | ![](./images/python.png) |
