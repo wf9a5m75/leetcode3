@@ -1,17 +1,21 @@
 
 # LeetCode 3rd turn
-### last update: 2023-08-29 00:13 UTC
+### last update: 2023-08-31 00:13 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 69 |
+| easy | 72 |
 | medium | 53  |
 | hard | 5  |
-| total | 127  |
+| total | 130  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-08-30  | ![](./images/python.png) ![](./images/kotlin.png) |
+| [860. Lemonade Change](./860.lemonade-change) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
+| [657. Robot Return to Origin](./657.robot-return-to-origin) | Easy |   | 2023-08-30  | ![](./images/python.png) |
+| [1275. Find Winner on a Tic Tac Toe Game](./1275.find-winner-on-a-tic-tac-toe-game) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
 | [58. Length of Last Word](./58.length-of-last-word) | Easy |   | 2023-08-28  | ![](./images/python.png) |
 | [896. Monotonic Array](./896.monotonic-array) | Easy | `Programming Skills`  | 2023-08-28  | ![](./images/python.png) |
 | [66. Plus One](./66.plus-one) | Easy |   | 2023-08-28  | ![](./images/python.png) |
@@ -61,7 +65,6 @@
 | [1061. Lexicographically Smallest Equivalent String](./1061.lexicographically-smallest-equivalent-string) | Medium |   | 2023-01-15  | ![](./images/python.png) |
 | [1443. Minimum Time to Collect All Apples in a Tree](./1443.minimum-time-to-collect-all-apples-in-a-tree) | Medium | `TODO`  | 2023-01-11  | ![](./images/python.png) |
 | [100. Same Tree](./100.same-tree) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [383. Ransom Note](./383.ransom-note) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [1047. Remove All Adjacent Duplicates In String](./1047.remove-all-adjacent-duplicates-in-string) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1768. Merge Strings Alternately](./1768.merge-strings-alternately) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
