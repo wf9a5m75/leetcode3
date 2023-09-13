@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2023-08-31 00:13 UTC
+### last update: 2023-09-13 00:13 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 72 |
-| medium | 53  |
+| medium | 55  |
 | hard | 5  |
-| total | 130  |
+| total | 132  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1647. Minimum Deletions to Make Character Frequencies Unique](./1643.minimum-deletions-to-make-character-frequencies-unique) | Medium |   | 2023-09-12  | ![](./images/python.png) |
+| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) |
 | [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-08-30  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [860. Lemonade Change](./860.lemonade-change) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
 | [657. Robot Return to Origin](./657.robot-return-to-origin) | Easy |   | 2023-08-30  | ![](./images/python.png) |
