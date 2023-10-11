@@ -1,19 +1,24 @@
 
 # LeetCode 3rd turn
-### last update: 2023-09-14 01:20 UTC
+### last update: 2023-10-11 22:46 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 72 |
-| medium | 55  |
+| easy | 73 |
+| medium | 59  |
 | hard | 5  |
-| total | 132  |
+| total | 137  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [34. Find First and Last Position of Element in Sorted Array](./34.find-first-and-last-position-of-element-in-sorted-array) | Medium |   | 2023-10-09  | ![](./images/python.png) |
+| [343. Integer Break](./343.integer-break) | Medium |   | 2023-10-06  | ![](./images/python.png) |
+| [229. Majority Elements II](./229.majority-element-ii) | Medium |   | 2023-10-05  | ![](./images/python.png) |
+| [1512. Number of Good Pairs](./1512.number-of-goog-pairs) | Easy |   | 2023-10-03  | ![](./images/python.png) |
+| [146. LRU Cache](./146.lru-cache) | Medium |   | 2023-09-14  | ![](./images/python.png) |
 | [1647. Minimum Deletions to Make Character Frequencies Unique](./1643.minimum-deletions-to-make-character-frequencies-unique) | Medium |   | 2023-09-13  | ![](./images/python.png) |
-| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) ![](./images/typescript.png) |
+| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) |
 | [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-08-30  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [860. Lemonade Change](./860.lemonade-change) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
 | [657. Robot Return to Origin](./657.robot-return-to-origin) | Easy |   | 2023-08-30  | ![](./images/python.png) |

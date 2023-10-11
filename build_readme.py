@@ -1,89 +1,116 @@
-class ListNode:
-    prev: ListNode = None
-    next: ListNode = None
-    value: int
-    key: str
-    
-    def __init__(self, key: str, value: int):
-        self.key = key
-        self.value = value
-        
-class LRUCache:
+import glob
+import os.path
+from typing import List, Dict
+import time
+import re
 
-    keyToNode: dict[str, ListNode] = {}
-    
-    def __init__(self, capacity: int):
-        self.capacity = capacity
-        
-        # Since the leetcode test code reuse the LRUCache class instance,
-        # we need to reset the dictionary every times.
-        
-        self.keyToNode = {}
-        self.head = ListNode(key="guard", value = -1)
-        self.tail = ListNode(key="guard", value = -1)
-        
-        self.head.next = self.tail
-        self.tail.prev = self.head
-        
+def parseReadMe(readMeFilePath: str) -> List[str | List[str]]:
+    f = open(readMeFilePath)
+    title = ""
+    level = ""
+    tags = []
 
-    def get(self, key: int) -> int:
-        if (key not in self.keyToNode):
-            return -1
-        node = self.keyToNode[key]
-        self._remove(node)
-        self._add(node)
-        return node.value
-        
-        
+    for line in f.readlines():
+        line = line.rstrip()
+        if line.startswith("# "):
+            title = re.sub(r"\#\s", "", line)
+        elif "level:" in line:
+            level = re.sub(r".*level: ", "", line)
+        elif line.startswith("- tag: "):
+            tags.append(line.replace("- tag: ", ""))
 
-    def put(self, key: int, value: int) -> None:
-        node = None
-        if (key in self.keyToNode):
-            node = self.keyToNode[key]
-            node.value = value
-            self._remove(node)
-            del self.keyToNode[key]
-            
-        else:
-            node = ListNode(
-                key = key,
-                value = value
-            )
-            
-        self.keyToNode[key] = node
-        self._add(node)
-        
-        if (len(self.keyToNode) > self.capacity):
-            leastUsedNode = self.head.next
-            self._remove(leastUsedNode)
-            del self.keyToNode[leastUsedNode.key]
-            
-        
-    def _remove(self, node: ListNode):
-        """
-        prev ←━┓ node ┏━━→ next
-               ┗━━━━━━┛
-        """
-        prevNode = node.prev
-        nextNode = node.next
-        nextNode.prev = prevNode
-        prevNode.next = nextNode
-        
-    def _add(self, node: ListNode):
-        """
-        tailPrev ←→ node ←→ tail
-        """
-        tailPrev = self.tail.prev
-        tailPrev.next = node
-        node.prev = tailPrev
-        node.next = self.tail
-        self.tail.prev = node
-        
-            
-        
+    f.close()
+    return (title, level, tags)
 
+def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
+    results = {
+        "title": "",
+        "level": "",
+        "tags": [],
+        "lastModified": "",
+        "hasPython": False,
+        "hasKotlin": False
+    }
 
-# Your LRUCache object will be instantiated and called as such:
-# obj = LRUCache(capacity)
-# param_1 = obj.get(key)
-# obj.put(key,value)
+    lastModified = 0
+    filesInDir = os.listdir(dirPath)
+    for file in filesInDir:
+        pathParts = os.path.splitext(file)
+        filename = pathParts[-2]
+        ext = pathParts[-1]
+        filePath = f"{dirPath}/{file}"
+
+        if (ext == ".py"):
+            results["hasPython"] = True
+            lastModified = max(lastModified, os.path.getmtime(filePath))
+        elif (ext == ".kt"):
+            results["hasKotlin"] = True
+            lastModified = max(lastModified, os.path.getmtime(filePath))
+        elif (filename == "README" and ext == ".md"):
+            title, level, tags = parseReadMe(filePath)
+            results["title"] = title
+            results["level"] = level
+            results["tags"] = tags
+
+    results["lastModified"] = lastModified
+
+    return results
+
+readMeFiles = glob.glob("./*/README.md")
+
+countLevels = {
+    "easy": 0,
+    "medium": 0,
+    "hard": 0,
+}
+outputs = []
+
+for file in readMeFiles:
+    dirPath = os.path.dirname(file)
+    meta = generateMeta(dirPath)
+    meta["dirPath"] = dirPath
+    meta["tags"] = ", ".join(list(map(lambda it: f"`{it}`", meta["tags"])))
+
+    level = meta["level"].lower()
+    if level in countLevels:
+        countLevels[level] += 1
+    outputs.append(meta)
+
+outputs.sort(
+    key = lambda meta: meta["lastModified"],
+    reverse = True
+)
+
+total = countLevels['easy'] + countLevels['medium'] + countLevels['hard']
+last_update_time = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
+
+with open("./README.md", "w") as f:
+
+    f.write(f"""
+# LeetCode 3rd turn
+### last update: {last_update_time}
+## summary
+| level | counts |
+|-|-|
+| easy | {countLevels['easy']} |
+| medium | {countLevels['medium']}  |
+| hard | {countLevels['hard']}  |
+| total | {total}  |
+
+## questions
+| problem | level| tags | last modified | languages |
+|-|-|-|-|-|\n""")
+
+    for meta in outputs:
+        lastModified = time.strftime("%Y-%m-%d",
+                            time.gmtime(meta["lastModified"]))
+
+        languages = []
+        if (meta["hasPython"]):
+            languages.append("![](./images/python.png)")
+        if (meta["hasKotlin"]):
+            languages.append("![](./images/kotlin.png)")
+        languages = " ".join(languages)
+        line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { lastModified }  | { languages } |\n"
+        f.write(line)
+f.close()
