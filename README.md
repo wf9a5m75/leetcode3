@@ -1,6 +1,6 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-05 00:14 UTC
+### last update: 2024-01-09 00:15 UTC
 ## summary
 | level | counts |
 |-|-|
@@ -12,6 +12,7 @@
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [938. Range Sum of BST](./938.range-sum-of-bst) | Easy |   | 2024-01-08  | ![](./images/python.png) |
 | [2870. Minimum Number of Operations to Make Array Empty](./2870.minimum-number-of-operations-to-make-array-empty) | Medium |   | 2024-01-04  | ![](./images/python.png) |
 | [2125. Number of Laser Beams in a Bank](./2125.number-of-laser-beams-in-a-bank) | Medium |   | 2024-01-04  | ![](./images/python.png) |
 | [34. Find First and Last Position of Element in Sorted Array](./34.find-first-and-last-position-of-element-in-sorted-array) | Medium |   | 2023-10-09  | ![](./images/python.png) |
@@ -130,7 +131,6 @@
 | [383. Ransom Note](./383.ransom-note) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [2235. Add Two Integers](./2235.add-two-integers) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [1290. Convert Binary Number in a Linked List to Integer](./1290.convert-binary-number-in-a-linked-list-to-integer) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [938. Range Sum of BST](./938.range-sum-of-bst) | Easy |   | 2023-01-10  | ![](./images/python.png) |
 | [161. One Edit Distance](./161.one-edit-distance) | Medium | `TODO`  | 2023-01-10  | ![](./images/python.png) |
 | [2131. Longest Palindrome by Concatenating Two Letter Words](./2131.longest-palindrome-by-concatenating-two-letter-words) | Medium |   | 2023-01-10  | ![](./images/kotlin.png) |
 | [976. Largest Perimeter Triangle](./976.largest-perimeter-triangle) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
