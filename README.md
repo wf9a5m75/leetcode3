@@ -1,17 +1,19 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-09 00:15 UTC
+### last update: 2024-01-10 00:14 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 73 |
 | medium | 61  |
-| hard | 5  |
-| total | 139  |
+| hard | 6  |
+| total | 140  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [872. Leaf-Similar Trees](./872.leaf-similar-trees) | Easy |   | 2024-01-09  | ![](./images/python.png) ![](./images/kotlin.png) |
+| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-09  | ![](./images/python.png) |
 | [938. Range Sum of BST](./938.range-sum-of-bst) | Easy |   | 2024-01-08  | ![](./images/python.png) |
 | [2870. Minimum Number of Operations to Make Array Empty](./2870.minimum-number-of-operations-to-make-array-empty) | Medium |   | 2024-01-04  | ![](./images/python.png) |
 | [2125. Number of Laser Beams in a Bank](./2125.number-of-laser-beams-in-a-bank) | Medium |   | 2024-01-04  | ![](./images/python.png) |
@@ -92,7 +94,6 @@
 | [202. Happy Number](./202.happy-number) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1833. Maximum Ice Cream Bars](./1833.maximum-ice-cream-bars) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2256. Minimum Average Difference](./2256.minimum-average-difference) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [872. Leaf-Similar Trees](./872.leaf-similar-trees) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [149. Max Points on a Line](./149.max-points-on-a-line) | Hard |   | 2023-01-10  | ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2023-01-10  | ![](./images/python.png) |
 | [290. Word Pattern](./290.word-pattern) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
