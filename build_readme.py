@@ -29,7 +29,8 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
         "tags": [],
         "lastModified": "",
         "hasPython": False,
-        "hasKotlin": False
+        "hasKotlin": False,
+        "hasTypeScript": False
     }
 
     lastModified = 0
@@ -45,6 +46,9 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
             lastModified = max(lastModified, os.path.getmtime(filePath))
         elif (ext == ".kt"):
             results["hasKotlin"] = True
+            lastModified = max(lastModified, os.path.getmtime(filePath))
+        elif (ext == ".ts"):
+            results["hasTypeScript"] = True
             lastModified = max(lastModified, os.path.getmtime(filePath))
         elif (filename == "README" and ext == ".md"):
             title, level, tags = parseReadMe(filePath)
@@ -110,6 +114,8 @@ with open("./README.md", "w") as f:
             languages.append("![](./images/python.png)")
         if (meta["hasKotlin"]):
             languages.append("![](./images/kotlin.png)")
+        if (meta["hasTypeScript"]):
+            languages.append("![](./images/typescript.png)")
         languages = " ".join(languages)
         line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { lastModified }  | { languages } |\n"
         f.write(line)
