@@ -1,19 +1,22 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-10 00:14 UTC
+### last update: 2024-01-12 00:14 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 73 |
-| medium | 61  |
+| medium | 62  |
 | hard | 6  |
-| total | 140  |
+| total | 141  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
+| [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
+| [1026. Maximum Difference Between Node and Ancestor](./1026.maximum-difference-between-node-and-ancestor) | Medium |   | 2024-01-11  | ![](./images/python.png) |
+| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-09  | ![](./images/python.png) ![](./images/typescript.png) |
 | [872. Leaf-Similar Trees](./872.leaf-similar-trees) | Easy |   | 2024-01-09  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-09  | ![](./images/python.png) |
 | [938. Range Sum of BST](./938.range-sum-of-bst) | Easy |   | 2024-01-08  | ![](./images/python.png) |
 | [2870. Minimum Number of Operations to Make Array Empty](./2870.minimum-number-of-operations-to-make-array-empty) | Medium |   | 2024-01-04  | ![](./images/python.png) |
 | [2125. Number of Laser Beams in a Bank](./2125.number-of-laser-beams-in-a-bank) | Medium |   | 2024-01-04  | ![](./images/python.png) |
@@ -23,7 +26,7 @@
 | [1512. Number of Good Pairs](./1512.number-of-goog-pairs) | Easy |   | 2023-10-03  | ![](./images/python.png) |
 | [146. LRU Cache](./146.lru-cache) | Medium |   | 2023-09-14  | ![](./images/python.png) |
 | [1647. Minimum Deletions to Make Character Frequencies Unique](./1643.minimum-deletions-to-make-character-frequencies-unique) | Medium |   | 2023-09-13  | ![](./images/python.png) |
-| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) |
+| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) ![](./images/typescript.png) |
 | [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-08-30  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [860. Lemonade Change](./860.lemonade-change) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
 | [657. Robot Return to Origin](./657.robot-return-to-origin) | Easy |   | 2023-08-30  | ![](./images/python.png) |
@@ -82,7 +85,6 @@
 | [876. Middle of the Linked List](./876.middle-of-the-linked-list) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2. Add Two Numbers](./2.add-two-numbers) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [217. Contains Duplicate](./217.contains-duplicate) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [1026. Maximum Difference Between Node and Ancestor](./1026.maximum-difference-between-node-and-ancestor) | Medium |   | 2023-01-10  | ![](./images/python.png) |
 | [1480. Running Sum of 1d Array](./1480.running-sum-of-1d-array) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [1502. Can Make Arithmetic Progression From Sequence](./1502.can-make-arithmetic-progression-from-sequence) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1047. Remove All Adjacent Duplicates In String](./1047.remove-all-adjacent-duplicates-in-string) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
@@ -95,7 +97,6 @@
 | [1833. Maximum Ice Cream Bars](./1833.maximum-ice-cream-bars) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2256. Minimum Average Difference](./2256.minimum-average-difference) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [149. Max Points on a Line](./149.max-points-on-a-line) | Hard |   | 2023-01-10  | ![](./images/python.png) |
-| [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2023-01-10  | ![](./images/python.png) |
 | [290. Word Pattern](./290.word-pattern) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2150. Find All Lonely Numbers in the Array](./2150.find-all-lonely-numbers-in-the-array) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [263. Ugly Number](./263.ugly-number) | Easy |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
