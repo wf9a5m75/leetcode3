@@ -28,9 +28,7 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
         "level": "",
         "tags": [],
         "lastModified": "",
-        "hasPython": False,
-        "hasKotlin": False,
-        "hasTypeScript": False
+        "languages": []
     }
 
     lastModified = 0
@@ -41,20 +39,23 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
         ext = pathParts[-1]
         filePath = f"{dirPath}/{file}"
 
-        if (ext == ".py"):
-            results["hasPython"] = True
-            lastModified = max(lastModified, os.path.getmtime(filePath))
-        elif (ext == ".kt"):
-            results["hasKotlin"] = True
-            lastModified = max(lastModified, os.path.getmtime(filePath))
-        elif (ext == ".ts"):
-            results["hasTypeScript"] = True
-            lastModified = max(lastModified, os.path.getmtime(filePath))
-        elif (filename == "README" and ext == ".md"):
+        if (filename == "README" and ext == ".md"):
             title, level, tags = parseReadMe(filePath)
             results["title"] = title
             results["level"] = level
             results["tags"] = tags
+            continue
+
+        lastModified = max(lastModified, os.path.getmtime(filePath))
+
+        if (ext == ".py"):
+            results["languages"].append("python")
+        elif (ext == ".kt"):
+            results["languages"].append("kotlin")
+        elif (ext == ".ts"):
+            results["languages"].append("typescript")
+        elif (ext == ".go"):
+            results["languages"].append("go")
 
     results["lastModified"] = lastModified
 
@@ -109,14 +110,7 @@ with open("./README.md", "w") as f:
         lastModified = time.strftime("%Y-%m-%d",
                             time.gmtime(meta["lastModified"]))
 
-        languages = []
-        if (meta["hasPython"]):
-            languages.append("![](./images/python.png)")
-        if (meta["hasKotlin"]):
-            languages.append("![](./images/kotlin.png)")
-        if (meta["hasTypeScript"]):
-            languages.append("![](./images/typescript.png)")
-        languages = " ".join(languages)
+        languages = " ".join(set(sorted(map(lambda x : f"![](./images/{x}.png)", meta["languages"]))))
         line = f"| [{ meta['title'] }]({ meta['dirPath'] }) | { meta['level'] } | { meta['tags'] }  | { lastModified }  | { languages } |\n"
         f.write(line)
 f.close()
