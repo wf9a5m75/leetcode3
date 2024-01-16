@@ -1,19 +1,21 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-14 00:16 UTC
+### last update: 2024-01-16 00:15 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 73 |
-| medium | 63  |
+| medium | 65  |
 | hard | 6  |
-| total | 142  |
+| total | 144  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-14  | ![](./images/python.png) |
-| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/python.png) ![](./images/go.png) |
+| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-16  | ![](./images/python.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/go.png) ![](./images/python.png) ![](./images/kotlin.png) |
+| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-14  | ![](./images/python.png) |
+| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
 | [1026. Maximum Difference Between Node and Ancestor](./1026.maximum-difference-between-node-and-ancestor) | Medium |   | 2024-01-11  | ![](./images/python.png) |
