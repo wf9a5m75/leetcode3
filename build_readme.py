@@ -54,6 +54,8 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
             results["languages"].append("kotlin")
         elif (ext == ".ts"):
             results["languages"].append("typescript")
+        elif (ext == ".java"):
+            results["languages"].append("java")
         elif (ext == ".go"):
             results["languages"].append("go")
 
