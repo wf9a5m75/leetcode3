@@ -1,21 +1,22 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-18 00:15 UTC
+### last update: 2024-01-19 00:15 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 74 |
+| easy | 75 |
 | medium | 66  |
 | hard | 6  |
-| total | 146  |
+| total | 147  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-18  | ![](./images/python.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) ![](./images/python.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) ![](./images/python.png) |
+| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-19  | ![](./images/python.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) ![](./images/kotlin.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) ![](./images/kotlin.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) ![](./images/kotlin.png) |
 | [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-14  | ![](./images/python.png) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/python.png) ![](./images/go.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
