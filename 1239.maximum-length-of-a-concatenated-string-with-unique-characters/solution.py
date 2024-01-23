@@ -3,28 +3,33 @@ class Solution:
         
         N = len(words)
         
-        @cache
-        def backtrack(pos: int, buff: int) -> int:
+        def dfs(pos: int, charsSoFar: int) -> int:
             if (pos == N):
-                
                 cnt = 0
                 bitMask = 1
                 for i in range(26):
-                    cnt += 1 if (bitMask & buff > 0) else 0
+                    cnt += 1 if (bitMask & charsSoFar > 0) else 0
                     bitMask <<= 1
                 return cnt
             
-            doNothing = backtrack(pos + 1, buff)
+			# If we don't use the current word, just move on to the next
+            doNothing = backtrack(pos + 1, charsSoFar)
             
+			# Detects words[pos] and charsSoFar has any common charactors in both.
             ordA = ord("a")
             for char in words[pos]:
                 charBitFlag = 1 << (ord(char) - ordA)
-                if (charBitFlag & buff > 0):
+				
+				# We can't use this word
+                if (charBitFlag & charsSoFar > 0):
                     return doNothing
                 
-                buff |= charBitFlag
+                charsSoFar |= charBitFlag
             
-                
-            doSomething = backtrack(pos + 1, buff) 
-            return max(doSomething, doNothing)
-        return backtrack(0, 0)
+            # We can use this word. 
+            doSomething = backtrack(pos + 1, charsSoFar) 
+			
+			# Chooses the larger result
+			return max(doSomething, doNothing)
+			
+        return dfs(0, 0)
