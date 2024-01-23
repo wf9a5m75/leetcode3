@@ -30,6 +30,6 @@ class Solution:
             doSomething = backtrack(pos + 1, charsSoFar) 
 			
 			# Chooses the larger result
-			return max(doSomething, doNothing)
+            return max(doSomething, doNothing)
 			
         return dfs(0, 0)
