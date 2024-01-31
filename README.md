@@ -1,6 +1,6 @@
 
 # LeetCode 3rd turn
-### last update: 2024-01-30 00:14 UTC
+### last update: 2024-01-31 00:14 UTC
 ## summary
 | level | counts |
 |-|-|
@@ -12,19 +12,20 @@
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-30  | ![](./images/python.png) |
-| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/java.png) ![](./images/python.png) |
+| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-01-31  | ![](./images/python.png) |
+| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2024-01-30  | ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
+| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/python.png) ![](./images/java.png) |
 | [232. Implement Queue using Stacks](./232.implement-queue-using-stacks) | Easy | `Programming Skills I`  | 2024-01-29  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
+| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [198. House Robber](./198.house-robber) | Medium | `Dynamic Programming`  | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
-| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
+| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-01-23  | ![](./images/python.png) |
 | [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/java.png) ![](./images/python.png) ![](./images/go.png) ![](./images/kotlin.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/java.png) ![](./images/python.png) ![](./images/go.png) ![](./images/kotlin.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/java.png) ![](./images/go.png) ![](./images/python.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/java.png) ![](./images/python.png) ![](./images/go.png) ![](./images/kotlin.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) ![](./images/kotlin.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) ![](./images/kotlin.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) ![](./images/kotlin.png) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
@@ -139,7 +140,6 @@
 | [1281. Subtract the Product and Sum of Digits of an Integer](./1281.subtract-the-product-and-sum-of-digits-of-an-integer) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [1962. Remove Stones to Minimize the Total](./1962.remove-stones-to-minimize-the-total) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [2235. Add Two Integers](./2235.add-two-integers) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
-| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [303. Range Sum Query - Immutable](./303.range-sum-query-immutable) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [412. Fizz Buzz](./412.fizz-buzz) | Easy | `The LeetCode Beginner's Guide`  | 2023-01-10  | ![](./images/kotlin.png) |
 | [1290. Convert Binary Number in a Linked List to Integer](./1290.convert-binary-number-in-a-linked-list-to-integer) | Easy | `Programming Skills I`  | 2023-01-10  | ![](./images/python.png) ![](./images/kotlin.png) |
