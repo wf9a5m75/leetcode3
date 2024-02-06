@@ -28,7 +28,7 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
         "level": "",
         "tags": [],
         "lastModified": "",
-        "languages": []
+        "languages": set()
     }
 
     lastModified = 0
@@ -48,16 +48,22 @@ def generateMeta(dirPath: str) -> Dict[str, str| List[str] | bool ]:
 
         lastModified = max(lastModified, os.path.getmtime(filePath))
 
-        if (ext == ".py"):
-            results["languages"].append("python")
-        elif (ext == ".kt"):
-            results["languages"].append("kotlin")
-        elif (ext == ".ts"):
-            results["languages"].append("typescript")
-        elif (ext == ".java"):
-            results["languages"].append("java")
-        elif (ext == ".go"):
-            results["languages"].append("go")
+        match ext:
+            case ".py":
+                results["languages"].add("python")
+                pass
+            case ".kt":
+                results["languages"].add("kotlin")
+                pass
+            case ".ts":
+                results["languages"].add("typescript")
+                pass
+            case ".java":
+                results["languages"].add("java")
+                pass
+            case ".go":
+                results["languages"].add("go")
+                pass
 
     results["lastModified"] = lastModified
 
