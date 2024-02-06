@@ -1,36 +1,37 @@
 
 # LeetCode 3rd turn
-### last update: 2024-02-03 00:14 UTC
+### last update: 2024-02-06 00:14 UTC
 ## summary
 | level | counts |
 |-|-|
-| easy | 77 |
+| easy | 78 |
 | medium | 72  |
 | hard | 6  |
-| total | 155  |
+| total | 156  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-02-03  | ![](./images/python.png) |
+| [912. Sort an Array](./912.sort-an-array) | Medium |   | 2024-02-06  | ![](./images/python.png) |
+| [387. First Unique Character in a String](./387.first-unique-character-in-a-string) | Easy |   | 2024-02-05  | ![](./images/python.png) |
 | [1291. Sequential Digits](./1291.sequential-digits) | Medium |   | 2024-02-02  | ![](./images/python.png) |
 | [293. Flip Game](./239.flip-game) | Easy |   | 2024-02-02  | ![](./images/python.png) |
 | [2966. Divide Array Into Arrays With Max Difference](./2966.divide-array-into-arrays-with-max-difference) | Medium |   | 2024-02-01  | ![](./images/python.png) |
-| [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-01-31  | ![](./images/java.png) ![](./images/python.png) |
-| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-31  | ![](./images/java.png) ![](./images/python.png) ![](./images/typescript.png) |
-| [739. Daily Temperatures](./739.daily-temperatures) | Medium |   | 2024-01-31  | ![](./images/java.png) ![](./images/python.png) ![](./images/kotlin.png) |
-| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2024-01-30  | ![](./images/java.png) ![](./images/python.png) ![](./images/kotlin.png) |
-| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/java.png) ![](./images/python.png) |
+| [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-01-31  | ![](./images/python.png) ![](./images/java.png) |
+| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-31  | ![](./images/typescript.png) ![](./images/python.png) ![](./images/java.png) |
+| [739. Daily Temperatures](./739.daily-temperatures) | Medium |   | 2024-01-31  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2024-01-30  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/python.png) ![](./images/java.png) |
 | [232. Implement Queue using Stacks](./232.implement-queue-using-stacks) | Easy | `Programming Skills I`  | 2024-01-29  | ![](./images/python.png) ![](./images/kotlin.png) |
-| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
-| [198. House Robber](./198.house-robber) | Medium | `Dynamic Programming`  | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) ![](./images/kotlin.png) |
-| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
+| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
+| [198. House Robber](./198.house-robber) | Medium | `Dynamic Programming`  | 2024-01-24  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
-| [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/java.png) ![](./images/python.png) ![](./images/kotlin.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
+| [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/go.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/go.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
 | [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) ![](./images/kotlin.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/go.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
@@ -45,7 +46,7 @@
 | [1512. Number of Good Pairs](./1512.number-of-goog-pairs) | Easy |   | 2023-10-03  | ![](./images/python.png) |
 | [146. LRU Cache](./146.lru-cache) | Medium |   | 2023-09-14  | ![](./images/python.png) |
 | [1647. Minimum Deletions to Make Character Frequencies Unique](./1643.minimum-deletions-to-make-character-frequencies-unique) | Medium |   | 2023-09-13  | ![](./images/python.png) |
-| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/typescript.png) ![](./images/python.png) |
+| [151. Reverse Words in a String](./151.reverse-words-in-a-string) | Medium |   | 2023-09-12  | ![](./images/python.png) ![](./images/typescript.png) |
 | [1523. Count Odd Numbers in an Interval Range](./1523.count-odd-numbers-in-an-interval-range) | Easy | `Programming Skills I`  | 2023-08-30  | ![](./images/python.png) ![](./images/kotlin.png) |
 | [860. Lemonade Change](./860.lemonade-change) | Easy | `Programming Skills`  | 2023-08-30  | ![](./images/python.png) |
 | [657. Robot Return to Origin](./657.robot-return-to-origin) | Easy |   | 2023-08-30  | ![](./images/python.png) |
