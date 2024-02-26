@@ -1,33 +1,27 @@
-#
-# TC: O(N log N)
-# SC: O(N)
-#
 class Solution:
-    def minDiffInBST(self, root: Optional[TreeNode]) -> int:
-        buff = [-1000000, 1000000]
-
-        q = [root]
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        cities = defaultdict(list)
+        for fromI, toI, priceI in flights:
+            cities[fromI].append([toI, priceI])
+        
+        INF = float('inf')
+        totals = [INF] * n
+        totals[src] = 0
+        
+        q = deque([[0, src, 0]])
         while (q):
-            curr = q.pop(0)
+            steps, curr, total = q.popleft()
+            if ((curr == dst) or
+                (steps == k + 1) or
+                (total >= totals[dst])):
+                continue
 
-            L = 0
-            R = len(buff) - 1
-            while (L <= R):
-                mid = (L + R) >> 1
-                if (buff[mid] >= curr.val):
-                    R = mid - 1
-                else:
-                    L = mid + 1
-            buff.insert(L, curr.val)
-
-
-            if (curr.left):
-                q.append(curr.left)
-
-            if (curr.right):
-                q.append(curr.right)
-
-        minDiff = float('inf')
-        for i in range(1, len(buff) - 1):
-            minDiff = min(minDiff, buff[i] - buff[i - 1])
-        return minDiff
+            for toI, priceI in cities[curr]:
+                if (total + priceI >= totals[toI]):
+                    continue
+                totals[toI] = total + priceI
+                q.append([steps + 1, toI, total + priceI])
+        if (totals[dst] == INF):
+            return -1
+        else:
+            return totals[dst]
