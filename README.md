@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2024-02-29 00:14 UTC
+### last update: 2024-03-01 00:16 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 83 |
-| medium | 79  |
+| medium | 80  |
 | hard | 6  |
-| total | 168  |
+| total | 169  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [1609. Even Odd Tree](./1609.even-odd-tree) | Medium |   | 2024-02-29  | ![](./images/python.png) |
 | [1522. Diameter of N-Ary Tree](./1522.diameter-of-n-ary-tree) | Medium |   | 2024-02-28  | ![](./images/python.png) |
 | [513. Find Bottom Left Tree Value](./513.find-bottom-left-tree-value) | Medium |   | 2024-02-28  | ![](./images/python.png) |
 | [543. Diameter of Binary Tree](./543.diameter-of-binary-tree) | Easy |   | 2024-02-27  | ![](./images/python.png) |
@@ -47,11 +48,11 @@
 | [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
 | [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/python.png) ![](./images/go.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
 | [1026. Maximum Difference Between Node and Ancestor](./1026.maximum-difference-between-node-and-ancestor) | Medium |   | 2024-01-11  | ![](./images/python.png) |
