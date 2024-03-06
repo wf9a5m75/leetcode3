@@ -1,4 +1,4 @@
 # 141. Linked List Cycle
-## level: Medium
+## level: Easy
 
 https://leetcode.com/problems/linked-list-cycle/
