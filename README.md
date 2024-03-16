@@ -1,17 +1,18 @@
 
 # LeetCode 3rd turn
-### last update: 2024-03-14 00:14 UTC
+### last update: 2024-03-16 00:13 UTC
 ## summary
 | level | counts |
 |-|-|
 | easy | 90 |
-| medium | 84  |
+| medium | 85  |
 | hard | 6  |
-| total | 180  |
+| total | 181  |
 
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [238. Product of Array Except Self](./238.product-of-array-except-self) | Medium |   | 2024-03-15  | ![](./images/python.png) |
 | [2485. Find the Pivot Integer](./2485.find-the-pivot-integer) | Easy |   | 2024-03-13  | ![](./images/python.png) |
 | [3063. Linked List Frequency](./3063.linked-list-frequency) | Easy |   | 2024-03-11  | ![](./images/python.png) |
 | [3062. Winner of the Linked List Game](./3062.winner-of-the-linked-list-game) | Easy |   | 2024-03-11  | ![](./images/python.png) |
@@ -50,7 +51,7 @@
 | [293. Flip Game](./239.flip-game) | Easy |   | 2024-02-02  | ![](./images/python.png) |
 | [2966. Divide Array Into Arrays With Max Difference](./2966.divide-array-into-arrays-with-max-difference) | Medium |   | 2024-02-01  | ![](./images/python.png) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-01-31  | ![](./images/python.png) ![](./images/java.png) |
-| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-31  | ![](./images/python.png) ![](./images/typescript.png) ![](./images/java.png) |
+| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-31  | ![](./images/typescript.png) ![](./images/python.png) ![](./images/java.png) |
 | [739. Daily Temperatures](./739.daily-temperatures) | Medium |   | 2024-01-31  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
 | [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2024-01-30  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
 | [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/python.png) ![](./images/java.png) |
@@ -60,11 +61,11 @@
 | [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
 | [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/python.png) ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) |
-| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/python.png) ![](./images/go.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/go.png) ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/go.png) ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/go.png) ![](./images/python.png) ![](./images/kotlin.png) ![](./images/java.png) |
+| [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
 | [1026. Maximum Difference Between Node and Ancestor](./1026.maximum-difference-between-node-and-ancestor) | Medium |   | 2024-01-11  | ![](./images/python.png) |
