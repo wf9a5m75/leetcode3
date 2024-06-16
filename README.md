@@ -1,6 +1,6 @@
 
 # LeetCode 3rd turn
-### last update: 2024-06-16 21:40 UTC
+### last update: 2024-06-16 21:54 UTC
 ## summary
 | level | counts |
 |-|-|
@@ -12,18 +12,18 @@
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
-| [155. Min Stack](./155.min-stack) | Medium |   | 2024-06-15  | ![](./images/typescript.png) |
-| [20. Valid Parentheses](./20.valid-parentheses) | Easy |   | 2024-06-15  | ![](./images/typescript.png) |
-| [128. Longest Consecutive Sequence](./128.longest-consecutive-sequence) | Medium |   | 2024-06-15  | ![](./images/typescript.png) |
-| [36. Valid Sudoku](./36.valid-sudoku) | Medium |   | 2024-06-15  | ![](./images/typescript.png) |
+| [155. Min Stack](./155.min-stack) | Medium | `Neetcode 150`  | 2024-06-15  | ![](./images/typescript.png) |
+| [20. Valid Parentheses](./20.valid-parentheses) | Easy | `Neetcode 150`  | 2024-06-15  | ![](./images/typescript.png) |
+| [128. Longest Consecutive Sequence](./128.longest-consecutive-sequence) | Medium | `Neetcode 150`  | 2024-06-15  | ![](./images/typescript.png) |
+| [36. Valid Sudoku](./36.valid-sudoku) | Medium | `Neetcode 150`  | 2024-06-15  | ![](./images/typescript.png) |
 | [238. Product of Array Except Self](./238.product-of-array-except-self) | Medium |   | 2024-06-14  | ![](./images/python.png) ![](./images/typescript.png) |
-| [347. Top K Frequent Elements](./347.top-k-frequent-elements) | Medium |   | 2024-06-14  | ![](./images/typescript.png) |
-| [49. Group Anagrams](./49.group-anagrams) | Medium |   | 2024-06-14  | ![](./images/python.png) ![](./images/typescript.png) |
-| [1. Two Sum](./1.two-sum) | Easy |   | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
-| [242. Valid Anagram](./242.valid-anagram) | Easy | `Programming Skills I`  | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
-| [217. Contains Duplicate](./217.contains-duplicate) | Easy | `Programming Skills I`  | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
+| [347. Top K Frequent Elements](./347.top-k-frequent-elements) | Medium | `Neetcode 150`  | 2024-06-14  | ![](./images/typescript.png) |
+| [49. Group Anagrams](./49.group-anagrams) | Medium | `Neetcode 150`  | 2024-06-14  | ![](./images/python.png) ![](./images/typescript.png) |
+| [1. Two Sum](./1.two-sum) | Easy | `Neetcode 150`  | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
+| [242. Valid Anagram](./242.valid-anagram) | Easy | `Programming Skills I`, `Neetcode 150`  | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
+| [217. Contains Duplicate](./217.contains-duplicate) | Easy | `Programming Skills I`, `Neetcode 150`  | 2024-06-14  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) |
 | [2405. Optimal Partition of String](./2405.optimal-partition-of-string) | Medium |   | 2024-06-09  | ![](./images/python.png) |
-| [3. Longest Substring Without Repeating Characters](./3.longest-substring-without-repeating-characters) | Medium |   | 2024-04-29  | ![](./images/java.png) ![](./images/python.png) |
+| [3. Longest Substring Without Repeating Characters](./3.longest-substring-without-repeating-characters) | Medium |   | 2024-04-29  | ![](./images/python.png) ![](./images/java.png) |
 | [2. Add Two Numbers](./2.add-two-numbers) | Medium |   | 2024-04-29  | ![](./images/kotlin.png) ![](./images/python.png) |
 | [2485. Find the Pivot Integer](./2485.find-the-pivot-integer) | Easy |   | 2024-03-13  | ![](./images/python.png) |
 | [3063. Linked List Frequency](./3063.linked-list-frequency) | Easy |   | 2024-03-11  | ![](./images/python.png) |
@@ -49,32 +49,32 @@
 | [1481. Least Number of Unique Integers after K Removals](./1481.least-number-of-unique-integers-after-k-removals) | Medium |   | 2024-02-16  | ![](./images/python.png) |
 | [2108. Find First Palindromic String in the Array](./2108.find-first-palindromic-string-in-the-array) | Easy |   | 2024-02-13  | ![](./images/python.png) |
 | [169. Majority Element](./169.majority-element) | Easy |   | 2024-02-13  | ![](./images/python.png) |
-| [389. Find the Difference](./389.find-the-difference) | Easy | `Programming Skills I`  | 2024-02-08  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
-| [1768. Merge Strings Alternately](./1768.merge-strings-alternately) | Easy | `Programming Skills I`  | 2024-02-08  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
+| [389. Find the Difference](./389.find-the-difference) | Easy | `Programming Skills I`  | 2024-02-08  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [1768. Merge Strings Alternately](./1768.merge-strings-alternately) | Easy | `Programming Skills I`  | 2024-02-08  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
 | [1834. Single-Threaded CPU](./1834.single-threaded-cpu) | Medium |   | 2024-02-08  | ![](./images/kotlin.png) ![](./images/python.png) |
 | [279. Perfect Squares](./279.perfect-squares) | Medium |   | 2024-02-08  | ![](./images/python.png) |
 | [970. Powerful Integers](./970.powerful-integers) | Medium |   | 2024-02-08  | ![](./images/python.png) |
 | [912. Sort an Array](./912.sort-an-array) | Medium | `Recursion II`  | 2024-02-08  | ![](./images/python.png) |
 | [451. Sort Characters By Frequency](./451.sort-characters-by-frequency) | Medium |   | 2024-02-08  | ![](./images/python.png) |
 | [387. First Unique Character in a String](./387.first-unique-character-in-a-string) | Easy |   | 2024-02-05  | ![](./images/python.png) |
-| [739. Daily Temperatures](./739.daily-temperatures) | Medium |   | 2024-02-05  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
+| [739. Daily Temperatures](./739.daily-temperatures) | Medium |   | 2024-02-05  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
 | [2966. Divide Array Into Arrays With Max Difference](./2966.divide-array-into-arrays-with-max-difference) | Medium |   | 2024-02-05  | ![](./images/python.png) |
 | [293. Flip Game](./239.flip-game) | Easy |   | 2024-02-05  | ![](./images/python.png) |
 | [1291. Sequential Digits](./1291.sequential-digits) | Medium |   | 2024-02-05  | ![](./images/python.png) |
-| [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-02-05  | ![](./images/java.png) ![](./images/python.png) |
-| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-02-05  | ![](./images/java.png) ![](./images/python.png) ![](./images/typescript.png) |
-| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium |   | 2024-01-30  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
-| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/java.png) ![](./images/python.png) |
+| [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-02-05  | ![](./images/python.png) ![](./images/java.png) |
+| [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-02-05  | ![](./images/python.png) ![](./images/typescript.png) ![](./images/java.png) |
+| [150. Evaluate Reverse Polish Notation](./150.evaluate-reverse-polish-notation) | Medium | `Neetcode 150`  | 2024-01-30  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [1143. Longest Common Subsequence](./1143.longest-common-subsequence) | Medium |   | 2024-01-29  | ![](./images/python.png) ![](./images/java.png) |
 | [232. Implement Queue using Stacks](./232.implement-queue-using-stacks) | Easy | `Programming Skills I`  | 2024-01-29  | ![](./images/kotlin.png) ![](./images/python.png) |
-| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
-| [198. House Robber](./198.house-robber) | Medium | `Dynamic Programming`  | 2024-01-24  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
-| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/java.png) ![](./images/python.png) |
+| [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
+| [198. House Robber](./198.house-robber) | Medium | `Dynamic Programming`  | 2024-01-24  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
-| [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/java.png) ![](./images/python.png) ![](./images/go.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/java.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/go.png) |
+| [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium |   | 2024-01-15  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-13  | ![](./images/python.png) ![](./images/go.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
@@ -98,7 +98,7 @@
 | [896. Monotonic Array](./896.monotonic-array) | Easy | `Programming Skills`  | 2023-08-28  | ![](./images/python.png) |
 | [1822. Sign of the Product of an Array](./1822.sign-of-the-product-of-an-array) | Easy | `Programming Skills`  | 2023-08-28  | ![](./images/python.png) |
 | [66. Plus One](./66.plus-one) | Easy |   | 2023-08-28  | ![](./images/python.png) |
-| [283. Move Zeroes](./283.move-zeroes) | Easy | `Programming Skills I`  | 2023-08-28  | ![](./images/kotlin.png) ![](./images/python.png) |
+| [283. Move Zeroes](./283.move-zeroes) | Easy | `Programming Skills I`, `Neetcode 150`  | 2023-08-28  | ![](./images/kotlin.png) ![](./images/python.png) |
 | [459. Repeated Substring Pattern](./459.repeated-substring-pattern) | Easy |   | 2023-08-27  | ![](./images/python.png) |
 | [28. Find the Index of the First Occurrence in a String](./28.find-the-index-of-the-first-occurrence-in-a-string) | Easy |   | 2023-08-27  | ![](./images/python.png) |
 | [98. Validate Binary Search Tree](./98.validate-binary-search-tree) | Medium |   | 2023-08-25  | ![](./images/python.png) |
