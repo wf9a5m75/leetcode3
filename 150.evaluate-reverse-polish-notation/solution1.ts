@@ -2,9 +2,10 @@ function toInt(num: number) {
   return ~~num;
 };
 
-const BASE_DECIMAL = 10;
 
 function evalRPN(tokens: string[]): number {
+  const BASE_DECIMAL = 10;
+  
   const calculation_table = {
       "+": (left_hand_value: number, right_hand_value: number): number => {
           return (left_hand_value + right_hand_value);
@@ -31,5 +32,5 @@ function evalRPN(tokens: string[]): number {
       const result = calculation_table[token](left_hand_value, right_hand_value);
       stack.push(result);
   }
-  return stack.pop();
+  return stack.pop()!;
 };

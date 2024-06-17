@@ -2,12 +2,11 @@ function isNumber(token: string): boolean {
   return /^-?[0-9]+$/.test(token);
 }
 
-const BASE_DECIMAL = 10;
 
 function evalRPN(tokens: string[]): number {
   const stack: string[] = [];
+  const BASE_DECIMAL = 10;
   
-  const number_of_tokens = tokens.length;
   for (const token of tokens) {
       stack.push(token);
       if (stack.length < 3 || isNumber(stack.at(-1))) {
