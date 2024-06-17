@@ -1,12 +1,30 @@
-from typing import List, Dict
+from typing import Dict, List
 
 class Solution:
     def __init__(self):
         self.parenthesis_cache: Dict[int, str] = {}
-        
+
     def generateParenthesis(self, n: int) -> List[str]:
+        """
+        Logic:
+            n = 0   [""]    This is the seed
+            n = 1  
+                ("") + "" -> ["(A)"]
+            n = 2
+               ("") + (A) -> ["(C)(A)"]
+               ((A)) + "" -> ["((B))"]
+            n = 3
+                ("") + (C)(A) -> ["()()()"]
+                ("") + ((B)) -> ["()(())"]
+                
+                ((A)) + (A) -> ["(())()"]
+                
+                (((B))) + "" -> ["((()))"]
+                ((C)(A)) + "" -> ["(()())"]
+                
+        """
         if (n == 0):
-            return [""]
+            return [""]  # seed
         
         if (n in self.parenthesis_cache):
             return self.parenthesis_cache[n]
