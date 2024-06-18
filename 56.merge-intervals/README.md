@@ -1,4 +1,6 @@
-# 55. Jump Game
+# 56. Merge Intervals
 ## level: Medium
 
-https://leetcode.com/problems/jump-game/
+- tag: Neetcode 150
+
+https://leetcode.com/problems/merge-intervals/
