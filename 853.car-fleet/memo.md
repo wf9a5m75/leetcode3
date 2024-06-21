@@ -290,3 +290,35 @@ class Solution:
             fleets += 1
         return fleets
 ```
+
+
+------------------------------------
+
+# step6: おまけ（他人のコード）
+
+## 時間計算量：O(target)
+## 空間計算量：O(target)
+
+## メモ
+- target が小さければ、たしかにこの方法でもありかも。
+
+```python
+class Solution:
+
+    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+        arr = [0] * (target + 1)
+        for pos, spe in zip(position, speed):
+            arr[pos] = spe
+        
+        fleets = 0
+        ahead_car = 0
+        for i in range(target - 1, -1, -1):
+            if arr[i] == 0:
+                continue
+            eta = (target - i) / arr[i]
+            if ahead_car >= eta:
+                continue
+            ahead_car = eta
+            fleets += 1
+        return fleets
+```
