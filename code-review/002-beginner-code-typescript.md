@@ -6,7 +6,7 @@
 - PythonとTypeScriptでは、コードに対する文化に多少の違いがあるので、TypeScriptだけを考慮した問題を生成してもらうことにした。
 - プログラミング初心者がLeetCode easyの問題を解いたコードを想定生成してもらう。
 - 可読性の良くないコードにしてもらう
-</detials>
+</details>
 
 <details open>
   <summary>問題：Palindrome Number</summary>
