@@ -13,7 +13,7 @@ class Solution:
         if root is None:
             return None
 
-        tree_stack: List[TreeNode] = [root]
+        tree_stack: [TreeNode] = [root]
         while tree_stack:
             tree = tree_stack.pop()
 
