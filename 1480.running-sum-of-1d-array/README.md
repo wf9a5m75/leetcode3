@@ -2,5 +2,6 @@
 ## level: Easy
 
 - tag: The LeetCode Beginner's Guide
+- tag: Data Structures and Algorithms
 
 https://leetcode.com/problems/running-sum-of-1d-array/
