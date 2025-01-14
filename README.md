@@ -1,6 +1,6 @@
 
 # LeetCode 3rd turn
-### last update: 2025-01-14 08:08 UTC
+### last update: 2025-01-14 08:21 UTC
 ## summary
 | level | counts |
 |-|-|
@@ -12,6 +12,7 @@
 ## questions
 | problem | level| tags | last modified | languages |
 |-|-|-|-|-|
+| [232. Implement Queue using Stacks](./232.implement-queue-using-stacks) | Easy | `Programming Skills I`  | 2025-01-14  | ![](./images/kotlin.png) ![](./images/python.png) |
 | [141. Linked List Cycle](./141.linked-list-cycle) | Easy |   | 2025-01-14  | ![](./images/python.png) |
 | [110. Balanced Binary Tree](./110.balanced-binary-trree) | Easy | `Grind 75`, `TODO`  | 2025-01-14  | ![](./images/python.png) |
 | [235. Lowest Common Ancestor of a Binary Search Tree](./235.lowest-common-ancestor-of-a-binary-search-tree) | Medium | `Grind 75`  | 2025-01-14  | ![](./images/python.png) |
@@ -57,7 +58,7 @@
 | [167. Two Sum II - Input Array Is Sorted](./167.two-sum-ii-input-array-is-sorted) | Medium | `Neetcode 150`  | 2024-11-30  | ![](./images/typescript.png) |
 | [969. Pancake Sorting](./969.pancake-sorting) | Medium |   | 2024-11-24  | ![](./images/typescript.png) |
 | [1133. Largest Unique Number](./1113.largest-unique-number) | Easy | `Data Structures and Algorithms`  | 2024-11-23  | ![](./images/typescript.png) |
-| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium | `Data Structures and Algorithms`  | 2024-11-23  | ![](./images/python.png) ![](./images/java.png) ![](./images/go.png) ![](./images/kotlin.png) ![](./images/typescript.png) |
+| [2225. Find Players With Zero or One Losses](./2225.find-players-with-zero-or-one-losses) | Medium | `Data Structures and Algorithms`  | 2024-11-23  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/typescript.png) ![](./images/go.png) ![](./images/java.png) |
 | [1426. Counting Elements](./1426.counting-elements) | Easy |   | 2024-11-23  | ![](./images/typescript.png) |
 | [268. Missing Number](./268.missing-number) | Easy |   | 2024-11-23  | ![](./images/python.png) |
 | [1832. Check if the Sentence Is Pangram](./1832.check-if-the-sentence-is-pangram) | Easy | `Data Structures and Algorithms`  | 2024-11-23  | ![](./images/typescript.png) |
@@ -114,14 +115,13 @@
 | [2966. Divide Array Into Arrays With Max Difference](./2966.divide-array-into-arrays-with-max-difference) | Medium |   | 2024-02-01  | ![](./images/python.png) |
 | [1239. Maximum Length of a Concatenated String with Unique Characters](./1239.maximum-length-of-a-concatenated-string-with-unique-characters) | Medium |   | 2024-01-31  | ![](./images/python.png) ![](./images/java.png) |
 | [1235. Maximum Profit in Job Scheduling](./1235.maximum-profit-in-job-scheduling) | Hard |   | 2024-01-31  | ![](./images/python.png) ![](./images/java.png) ![](./images/typescript.png) |
-| [232. Implement Queue using Stacks](./232.implement-queue-using-stacks) | Easy | `Programming Skills I`  | 2024-01-29  | ![](./images/kotlin.png) ![](./images/python.png) |
 | [1657. Determine if Two Strings Are Close](./1657.determine-if-two-strings-are-close) | Medium |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [645. Set Mismatch](./645.set-mismatch) | Easy |   | 2024-01-24  | ![](./images/python.png) ![](./images/java.png) |
 | [1457. Pseudo-Palindromic Paths in a Binary Tree](./1457.pseudo-palindromic-paths-in-a-binary-tree) | Medium |   | 2024-01-24  | ![](./images/python.png) |
 | [931. Minimum Falling Path Sum](./931.minimum-falling-path-sum) | Medium |   | 2024-01-22  | ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
-| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/go.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
-| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/go.png) ![](./images/kotlin.png) ![](./images/python.png) ![](./images/java.png) |
-| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/go.png) ![](./images/python.png) ![](./images/java.png) |
+| [70. Climbing Stairs](./70.climbing-stairs) | Easy |   | 2024-01-18  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) ![](./images/python.png) |
+| [1207. Unique Number of Occurrences](./1207.unique-number-of-occurrences) | Easy |   | 2024-01-17  | ![](./images/kotlin.png) ![](./images/go.png) ![](./images/java.png) ![](./images/python.png) |
+| [380. Insert Delete GetRandom O(1)](./380.insert-delete-getrandom-o1) | Medium |   | 2024-01-16  | ![](./images/python.png) ![](./images/go.png) ![](./images/java.png) |
 | [1347. Minimum Number of Steps to Make Two Strings Anagram](./1347.minimum-number-of-steps-to-make-two-strings-anagram) | Medium |   | 2024-01-14  | ![](./images/go.png) ![](./images/python.png) |
 | [1704. Determine if String Halves Are Alike](./1704.determine-if-string-halves-are-alike) | Easy |   | 2024-01-12  | ![](./images/python.png) |
 | [2385. Amount of Time for Binary Tree to Be Infected](./2385.amount-of-time-for-binary-tree-to-be-infected) | Medium |   | 2024-01-11  | ![](./images/python.png) |
