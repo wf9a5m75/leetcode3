@@ -18,6 +18,8 @@ def parseReadMe(readMeFilePath: str) -> List[str | List[str]]:
             level = re.sub(r".*level: ", "", line)
         elif line.startswith("- tag: "):
             tags.append(line.replace("- tag: ", ""))
+        elif line.startswith("-tag:"):
+            tags.append(line.replace("-tag:", ""))
 
     f.close()
     return (title, level, tags)
