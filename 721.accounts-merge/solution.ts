@@ -2,7 +2,7 @@
 //  N ... accounts.length
 //  M ... max(accoutns[i].length)
 // 
-/
+//
 
 function accountsMerge(accounts: string[][]): string[][] {
     // The email variable has "all emails and all numbers", SC is O(N x M)
